@@ -38,7 +38,7 @@ public class recorderSpin : MonoBehaviour
             //update location
             transform.position = newLocation;
             //disable gravity
-            GameObject.FindGameObjectWithTag("Cube").GetComponent<Rigidbody>().useGravity = false;
+            GameObject.FindGameObjectWithTag("Grammaphone").GetComponent<Rigidbody>().useGravity = false;
             //rotate disk
             transform.Rotate(0f, rotateSpeed * Time.deltaTime, 0f, Space.Self);
         }
