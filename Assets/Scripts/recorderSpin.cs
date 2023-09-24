@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.XR.CoreUtils;
 using UnityEngine;
 
 public class recorderSpin : MonoBehaviour
@@ -10,10 +11,13 @@ public class recorderSpin : MonoBehaviour
     //private bool hasCollided = false;
     private Transform cubeTransform;
     private Vector3 newLocation;
+
+    [SerializeField] private GameObject grammaphone;
+    
     // Start is called before the first frame update
     void Start()
     {
-        cubeTransform = GameObject.FindGameObjectWithTag("Cube").transform;
+        cubeTransform = grammaphone.transform;
         newLocation = new Vector3(cubeTransform.position.x, offset, cubeTransform.position.y);
     }
 
