@@ -11,12 +11,12 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 5e2e9ed7df3204958aab00830b880b28,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 100
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5e2e9ed7df3204958aab00830b880b28,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 100
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5e2e9ed7df3204958aab00830b880b28,
         type: 3}
@@ -26,17 +26,17 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 5e2e9ed7df3204958aab00830b880b28,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.030000001
+      value: -8.779973
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5e2e9ed7df3204958aab00830b880b28,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.1
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5e2e9ed7df3204958aab00830b880b28,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.5500002
+      value: 3.3827906
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5e2e9ed7df3204958aab00830b880b28,
         type: 3}
@@ -115,6 +115,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rotateSpeed: 10
   offset: 1
+  grammaphone: {fileID: 0}
 --- !u!64 &1543376815747060362
 MeshCollider:
   m_ObjectHideFlags: 0
