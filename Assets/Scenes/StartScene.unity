@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.5993745, g: 0.5997504, b: 0.59948784, a: 1}
+  m_IndirectSpecularColor: {r: 0.59937525, g: 0.5997512, b: 0.59948856, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -138,6 +138,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: XRRig
       objectReference: {fileID: 0}
+    - target: {fileID: 2789825246621378384, guid: f0ef1c91c9c4840c9b2cfaebbd1c8331,
+        type: 3}
+      propertyPath: cam
+      value: 
+      objectReference: {fileID: 1936120287}
     - target: {fileID: 2789825246621378384, guid: f0ef1c91c9c4840c9b2cfaebbd1c8331,
         type: 3}
       propertyPath: frisbee
@@ -545,6 +550,12 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3c81f5a5e9c79774a8b4e2eed36cd8d1, type: 3}
+--- !u!4 &1936120287 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4724988800831513417, guid: 3c81f5a5e9c79774a8b4e2eed36cd8d1,
+    type: 3}
+  m_PrefabInstance: {fileID: 1936120286}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7286723463602075530
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -608,11 +619,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grammaphone
       objectReference: {fileID: 0}
-    - target: {fileID: 4583663738752705007, guid: cfd6f03d66c7b904f9dcc405abe8c41e,
-        type: 3}
-      propertyPath: m_TagString
-      value: Grammaphone
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -620,7 +626,7 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4583663738752705007, guid: cfd6f03d66c7b904f9dcc405abe8c41e,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 7286723463602075532}
+      addedObject: {fileID: 7286723463602075535}
   m_SourcePrefab: {fileID: 100100000, guid: cfd6f03d66c7b904f9dcc405abe8c41e, type: 3}
 --- !u!1 &7286723463602075531 stripped
 GameObject:
@@ -628,33 +634,18 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 7286723463602075530}
   m_PrefabAsset: {fileID: 0}
---- !u!54 &7286723463602075532
-Rigidbody:
+--- !u!114 &7286723463602075535
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7286723463602075531}
-  serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87fa8aecd20bcca48a480f4066d85fc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &7535173420516624909
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -663,6 +654,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2009665246237095973, guid: 474f5fca836488f4490ed92baae1f901,
+        type: 3}
+      propertyPath: grammaphone
+      value: 
+      objectReference: {fileID: 7286723463602075531}
     - target: {fileID: 2628738669033151995, guid: 474f5fca836488f4490ed92baae1f901,
         type: 3}
       propertyPath: m_Name
@@ -716,6 +712,16 @@ PrefabInstance:
     - target: {fileID: 3400489610860398401, guid: 474f5fca836488f4490ed92baae1f901,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7805935146123994327, guid: 474f5fca836488f4490ed92baae1f901,
+        type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7805935146123994327, guid: 474f5fca836488f4490ed92baae1f901,
+        type: 3}
+      propertyPath: m_IsKinematic
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
