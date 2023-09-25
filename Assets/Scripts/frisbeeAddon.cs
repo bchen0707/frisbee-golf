@@ -17,19 +17,8 @@ public class frisbeeAddon : MonoBehaviour
      void OnCollisionEnter(Collision collision)
     {
         Debug.Log("Target was Hit!");
-        if (goalHit)
-        {
-            return;
-        }
-        else
-        {
-            goalHit = true;
-        }
-        // if (collision.gameObject.GetComponent<basicGoal> () != null )
-        // {
-        //     basicGoal goal = collision.gameObject.GetComponent<basicGoal>();
-        //     goal.goalHitEvent();
-        // }
+        basicGoal goal = collision.gameObject.GetComponent<basicGoal>();
+        goal.goalHitEvent();
         rb.isKinematic = true;
         transform.SetParent(collision.transform);
     }

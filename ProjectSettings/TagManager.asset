@@ -7,6 +7,7 @@ TagManager:
   - Cube
   - TriggerZone
   - Disc
+  - Grammaphone
   layers:
   - Default
   - TransparentFX
