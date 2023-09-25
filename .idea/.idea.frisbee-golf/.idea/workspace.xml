@@ -8,6 +8,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/FadeScreen.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/panelMovement.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -83,7 +84,8 @@
       <workItem from="1695575445479" duration="2278000" />
       <workItem from="1695602551518" duration="1427000" />
       <workItem from="1695675364008" duration="4000" />
-      <workItem from="1695675399842" duration="938000" />
+      <workItem from="1695675399842" duration="4535000" />
+      <workItem from="1695680395060" duration="300000" />
     </task>
     <servers />
   </component>
