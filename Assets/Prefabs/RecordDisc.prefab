@@ -78,11 +78,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: RecordDisc
       objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 5e2e9ed7df3204958aab00830b880b28,
-        type: 3}
-      propertyPath: m_TagString
-      value: Disc
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -165,8 +160,8 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 0
-  m_IsKinematic: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
