@@ -5,6 +5,10 @@ using UnityEngine;
 
 public class basicGoal : MonoBehaviour
 {
+    [SerializeField] private AudioSource audioSource;
+    [SerializeField] private string dialogue;
+    [SerializeField] private ParticleSystem particleFX = null;
+    
     public bool hit;
 
     public void OnTriggerEnter(Collider other)
@@ -17,9 +21,16 @@ public class basicGoal : MonoBehaviour
 
     public void goalHitEvent()
     {
-        Debug.Log("yay goal!!!");
-        Destroy(gameObject);
+        // audio
+        audioSource.Play();
+        // visual fx
+        particleFX.Play();
+        // dialogue
+        Debug.Log("dialogue");
+        //DialogueManager.DisplayDialogue(dialogue); -> takes the string dialogue and pops it into the respective UI area
+        //Destroy(gameObject);
     }
+    
     // Start is called before the first frame update
     void Start()
     {

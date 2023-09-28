@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Grammaphone : MonoBehaviour
 {
@@ -21,7 +22,7 @@ public class Grammaphone : MonoBehaviour
     {
         if (other.CompareTag("Disc"))
         {
-            GameManager.Instance
+            GameManager.Instance.GoToScene(1);
             //wait
             //Call scene transition
         }
