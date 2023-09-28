@@ -1,0 +1,954 @@
+fileFormatVersion: 2
+guid: 78aeb9947ee744712ad18fcd8bcde873
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ClossetOutlineMat
+    second: {fileID: 2100000, guid: 8d8eac2d652e74a76a0338dd0a4e9708, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ClossetOutline_ClossetFBXASC046001Mat
+    second: {fileID: 2100000, guid: c97b751bf8b254f17a4e44ac49e8d544, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ClossetOutline_ClossetFBXASC046002Mat
+    second: {fileID: 2100000, guid: c67dc33e64d74467895f0226b6faa770, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ClossetOutline_ClossetFBXASC046003Mat
+    second: {fileID: 2100000, guid: 525fc5f5f255d424a87c4b56ef239066, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ClossetOutline_ClossetFBXASC046004Mat
+    second: {fileID: 2100000, guid: 94ca01c4e4bd14043855cb6863338f4d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ClossetOutline_ClossetFBXASC046005Mat
+    second: {fileID: 2100000, guid: 875cf99110e734aa89b1772b51c34eb5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ClossetOutline_ClossetFBXASC046006Mat
+    second: {fileID: 2100000, guid: df9ca9ee3ed9244fc80173fcd3735a57, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ClossetOutline_ClossetFBXASC046007Mat
+    second: {fileID: 2100000, guid: c4c8f174e2df74d73b54b270ef8b5f59, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ClossetOutline_ClossetFBXASC046008Mat
+    second: {fileID: 2100000, guid: b1f0274ec1f544b17bdf361e7462243a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ClossetOutline_ClossetFBXASC046009Mat
+    second: {fileID: 2100000, guid: bdb35612fcdd2471a8a243f72cd7a8a1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ClossetOutline_ClossetFBXASC046010Mat
+    second: {fileID: 2100000, guid: d2daedf33e63241009d5f6a900fbedbc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ClossetOutline_ClossetFBXASC046011Mat
+    second: {fileID: 2100000, guid: cb48af5b58d864af6b234d347f738503, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ClossetOutline_ClossetFBXASC046012Mat
+    second: {fileID: 2100000, guid: 88694408d4cdd41f6be95140d3d12747, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ClossetOutline_ClossetFBXASC046013Mat
+    second: {fileID: 2100000, guid: be4a566390e5e4cdc80daaad54025b8a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ClossetOutline_ClossetFBXASC046014Mat
+    second: {fileID: 2100000, guid: e29d5fca0136b4ae484c1ff2c0a2d50f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ClossetOutline_ClossetFBXASC046015Mat
+    second: {fileID: 2100000, guid: f63ca1c7cf9064d90a8a95cc7419d590, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ClossetOutline_ClossetMat
+    second: {fileID: 2100000, guid: bcd25f1bd45fe4acda60e28a3659ed90, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DoubleBedOutlineMat
+    second: {fileID: 2100000, guid: 993fe8df6493d47e58d8de8f236c6f0f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DoubleBedOutline_DoubleBedFBXASC046001Mat
+    second: {fileID: 2100000, guid: 777d37f12bb064ca58dc39451ffca99a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DoubleBedOutline_DoubleBedFBXASC046002Mat
+    second: {fileID: 2100000, guid: 2edc883463f594651842d33268a93c63, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DoubleBedOutline_DoubleBedFBXASC046003Mat
+    second: {fileID: 2100000, guid: 01a09b04c48fb46a6902136c16238fb7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DoubleBedOutline_DoubleBedFBXASC046004Mat
+    second: {fileID: 2100000, guid: 32c01c05543144eb297f13f0009a992f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DoubleBedOutline_DoubleBedFBXASC046005Mat
+    second: {fileID: 2100000, guid: 70b7199ad25bd4c97ac5e73f963c52da, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DoubleBedOutline_DoubleBedFBXASC046006Mat
+    second: {fileID: 2100000, guid: 9deb0b4bcaa0844ceba30b29ae817b8d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DoubleBedOutline_DoubleBedFBXASC046007Mat
+    second: {fileID: 2100000, guid: 946a4140db65f4bc9872217653cbfbbe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DoubleBedOutline_DoubleBedFBXASC046008Mat
+    second: {fileID: 2100000, guid: cead32ee6b35d4636bb0686f4f0f45ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DoubleBedOutline_DoubleBedFBXASC046009Mat
+    second: {fileID: 2100000, guid: 51b008e033a974bf9b924c612f56705d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DoubleBedOutline_DoubleBedFBXASC046010Mat
+    second: {fileID: 2100000, guid: b534875df4ecf477c90cee0d64f5584e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DoubleBedOutline_DoubleBedFBXASC046011Mat
+    second: {fileID: 2100000, guid: 439621898ebdc456c81623805734c6f7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DoubleBedOutline_DoubleBedFBXASC046012Mat
+    second: {fileID: 2100000, guid: 246e311c32cff42d58dc92cde7505b3a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DoubleBedOutline_DoubleBedFBXASC046013Mat
+    second: {fileID: 2100000, guid: ad6b527e4dc5e41df833a1313f513559, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DoubleBedOutline_DoubleBedFBXASC046014Mat
+    second: {fileID: 2100000, guid: 5b05bc8368dc64b629ac21a65266551a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DoubleBedOutline_DoubleBedFBXASC046015Mat
+    second: {fileID: 2100000, guid: c51ee02cc77ae454c9c646c8165f650b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DoubleBedOutline_DoubleBedFBXASC046016Mat
+    second: {fileID: 2100000, guid: 4cb351aba93bb455e976c723b6f42b89, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DoubleBedOutline_DoubleBedFBXASC046017Mat
+    second: {fileID: 2100000, guid: f123bdefbe9a44425aab722872d14316, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DoubleBedOutline_DoubleBedFBXASC046018Mat
+    second: {fileID: 2100000, guid: f4e7bdb526ba64d078a4300743919354, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DoubleBedOutline_DoubleBedFBXASC046019Mat
+    second: {fileID: 2100000, guid: 11cbea954ad1549fcbdf818835a374c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DoubleBedOutline_DoubleBedFBXASC046020Mat
+    second: {fileID: 2100000, guid: 9989dbc4f3d8247e1a33814a39a5022f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DoubleBedOutline_DoubleBedFBXASC046021Mat
+    second: {fileID: 2100000, guid: ce2105170983b4e05a201683fff54222, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DoubleBedOutline_DoubleBedFBXASC046022Mat
+    second: {fileID: 2100000, guid: 000c9bf7d939f47e499e4b36d6498214, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DoubleBedOutline_DoubleBedFBXASC046023Mat
+    second: {fileID: 2100000, guid: 89ee3539b01964f60a9f02fa81bd3e50, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DoubleBedOutline_DoubleBedFBXASC046024Mat
+    second: {fileID: 2100000, guid: a5a9e97011ad644189d2ee36679d5d20, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DoubleBedOutline_DoubleBedFBXASC046025Mat
+    second: {fileID: 2100000, guid: 0c9e064db007c4afa9a2a8fff7e57467, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DoubleBedOutline_DoubleBedFBXASC046026Mat
+    second: {fileID: 2100000, guid: 69cfa374adee546f0af44c9054805ced, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DoubleBedOutline_DoubleBedFBXASC046027Mat
+    second: {fileID: 2100000, guid: fa0e3391e09364e7483a87a9a517bcca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DoubleBedOutline_DoubleBedFBXASC046028Mat
+    second: {fileID: 2100000, guid: bcd1b182cb88d4627827321646819a20, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DoubleBedOutline_DoubleBedFBXASC046029Mat
+    second: {fileID: 2100000, guid: 2c86307e17c6a4e7c9f48b313d627cbe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DoubleBedOutline_DoubleBedFBXASC046030Mat
+    second: {fileID: 2100000, guid: 52c2d097f6b474dbebee1e5799baa618, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DoubleBedOutline_DoubleBedFBXASC046031Mat
+    second: {fileID: 2100000, guid: 88713353395ac4d6da053063fc1328db, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DoubleBedOutline_DoubleBedMat
+    second: {fileID: 2100000, guid: ffb3fb1afe7644c91998757fedd4e282, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DresserBigFBXASC046060Mat
+    second: {fileID: 2100000, guid: ed494c7d594044ae0b63bdd40af3a755, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DresserBigFBXASC046060_DresserBigFBXASC046001Mat
+    second: {fileID: 2100000, guid: 06716fde1011643c0a3061e7e094f01f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DresserBigFBXASC046060_DresserBigFBXASC046002Mat
+    second: {fileID: 2100000, guid: 1b64687a6f8a74928a51faa7f6c7c041, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DresserBigFBXASC046060_DresserBigFBXASC046003Mat
+    second: {fileID: 2100000, guid: b797572920ba84effad0809bfb323c75, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DresserBigFBXASC046060_DresserBigFBXASC046004Mat
+    second: {fileID: 2100000, guid: bf027e817135f4ee6be6162162257fd2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DresserBigFBXASC046060_DresserBigFBXASC046005Mat
+    second: {fileID: 2100000, guid: b31d150f704ac4396991e46b33c14f9a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DresserBigFBXASC046060_DresserBigFBXASC046006Mat
+    second: {fileID: 2100000, guid: 5234a9291f947438d9e41ae74b44e569, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DresserBigFBXASC046060_DresserBigFBXASC046007Mat
+    second: {fileID: 2100000, guid: 84e2d10ebf9aa4cf0850dc239fc48e0d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DresserBigFBXASC046060_DresserBigFBXASC046008Mat
+    second: {fileID: 2100000, guid: 29291905a103c4803ae2511180e5b6b1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DresserBigFBXASC046060_DresserBigFBXASC046009Mat
+    second: {fileID: 2100000, guid: 1b863cf60d95f410e88f1f46b0484264, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DresserBigFBXASC046060_DresserBigFBXASC046010Mat
+    second: {fileID: 2100000, guid: 957bd429c66c046aa86f341ad53c7615, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DresserBigFBXASC046060_DresserBigFBXASC046011Mat
+    second: {fileID: 2100000, guid: 3e90e46eee9604d22ae159687036700c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DresserBigFBXASC046060_DresserBigFBXASC046012Mat
+    second: {fileID: 2100000, guid: 8dad298d1804f4e4f921c300c55f8389, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DresserBigFBXASC046060_DresserBigFBXASC046013Mat
+    second: {fileID: 2100000, guid: dee35760e998b4252af4cfefbb641bdb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DresserBigFBXASC046060_DresserBigFBXASC046014Mat
+    second: {fileID: 2100000, guid: cab7618925b02403092a929d10a964db, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DresserBigFBXASC046060_DresserBigFBXASC046015Mat
+    second: {fileID: 2100000, guid: 26e92b1c73d004baab937c7d743ea82a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DresserBigFBXASC046060_DresserBigFBXASC046016Mat
+    second: {fileID: 2100000, guid: d8aa6b7e3b2d04daaa4f1c527f5da021, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DresserBigFBXASC046060_DresserBigFBXASC046017Mat
+    second: {fileID: 2100000, guid: cb8d587984c6e4edf869ab457c4f8863, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DresserBigFBXASC046060_DresserBigFBXASC046018Mat
+    second: {fileID: 2100000, guid: 0bf4db590cd7d45028064b314ff85ac6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DresserBigFBXASC046060_DresserBigFBXASC046019Mat
+    second: {fileID: 2100000, guid: 81aa7784a44ad4c1ab2b3610fbea2337, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DresserBigFBXASC046060_DresserBigFBXASC046020Mat
+    second: {fileID: 2100000, guid: 29da6c2c06f194504be187d848fd1f6a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DresserBigFBXASC046060_DresserBigFBXASC046021Mat
+    second: {fileID: 2100000, guid: 55821d8cf3490431cab7705efc25e184, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DresserBigFBXASC046060_DresserBigFBXASC046022Mat
+    second: {fileID: 2100000, guid: e481225c4fc164973942da2c3e4b04bb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DresserBigFBXASC046060_DresserBigFBXASC046023Mat
+    second: {fileID: 2100000, guid: f2e02b56ad7894387afc5d71fadb6a92, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DresserBigFBXASC046060_DresserBigFBXASC046024Mat
+    second: {fileID: 2100000, guid: fca63bbeffe034181bc9d6b661e63fde, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DresserBigFBXASC046060_DresserBigFBXASC046025Mat
+    second: {fileID: 2100000, guid: e2174ed2270ab4bb0a92b5354ab07b01, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DresserBigFBXASC046060_DresserBigFBXASC046026Mat
+    second: {fileID: 2100000, guid: c471faf72b48e43f7afec0649dc88591, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DresserBigFBXASC046060_DresserBigFBXASC046027Mat
+    second: {fileID: 2100000, guid: 7f588a99943e545c19dd6e160dbb181b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DresserBigFBXASC046060_DresserBigFBXASC046028Mat
+    second: {fileID: 2100000, guid: 47618a6ab83504610ad8cf693b484fc5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DresserBigFBXASC046060_DresserBigFBXASC046029Mat
+    second: {fileID: 2100000, guid: 3028e467af17c446dadf94530ae7fc3c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DresserBigFBXASC046060_DresserBigFBXASC046030Mat
+    second: {fileID: 2100000, guid: 91dd8cdbf98d14fba9e45b8cfb4c09c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DresserBigFBXASC046060_DresserBigFBXASC046031Mat
+    second: {fileID: 2100000, guid: 5369d71b01d494aa9aae12ba5a620504, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DresserBigFBXASC046060_DresserBigFBXASC046032Mat
+    second: {fileID: 2100000, guid: c25483a4c0c434d3e8981fcc14d42aed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DresserBigFBXASC046060_DresserBigFBXASC046033Mat
+    second: {fileID: 2100000, guid: 4241b4aa35ce94c9186941f9116d8d77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DresserBigFBXASC046060_DresserBigFBXASC046034Mat
+    second: {fileID: 2100000, guid: cc539957140da4d19828c809a33cf8b1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DresserBigFBXASC046060_DresserBigFBXASC046035Mat
+    second: {fileID: 2100000, guid: 6469f089d1ca044bea1fdd7b07cc9a14, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DresserBigFBXASC046060_DresserBigFBXASC046036Mat
+    second: {fileID: 2100000, guid: eb310dea402034afbb8a5c26894d598c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DresserBigFBXASC046060_DresserBigFBXASC046037Mat
+    second: {fileID: 2100000, guid: 412156173b04243da8a713ab2c153def, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DresserBigFBXASC046060_DresserBigFBXASC046038Mat
+    second: {fileID: 2100000, guid: e837c311095fa4969931a9764f5a211d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DresserBigFBXASC046060_DresserBigFBXASC046039Mat
+    second: {fileID: 2100000, guid: 5ef55bf747b2647ff964a4492a46aa2a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DresserBigFBXASC046060_DresserBigFBXASC046040Mat
+    second: {fileID: 2100000, guid: e01bbb843300e4fefa27757f64d56371, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DresserBigFBXASC046060_DresserBigFBXASC046041Mat
+    second: {fileID: 2100000, guid: 67902cfa2891144be86169ca746ebbc6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DresserBigFBXASC046060_DresserBigFBXASC046042Mat
+    second: {fileID: 2100000, guid: 2650976a6b5934b928077d049124dad3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DresserBigFBXASC046060_DresserBigFBXASC046043Mat
+    second: {fileID: 2100000, guid: e3c9a0d12e76b4a0bb625d921b6a1372, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DresserBigFBXASC046060_DresserBigMat
+    second: {fileID: 2100000, guid: d9edb46f66ee34dfe89e34700eb2e9bb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: NightstandOutlineMat
+    second: {fileID: 2100000, guid: f2f409a5de0c542999533b84b85ced54, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: NightstandOutline_NightstandFBXASC046001Mat
+    second: {fileID: 2100000, guid: f6b2d99396bae4d8e9d44d7e90ab1ea7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: NightstandOutline_NightstandFBXASC046002Mat
+    second: {fileID: 2100000, guid: de0efeacbc88f4771b32b201949aa7c9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: NightstandOutline_NightstandFBXASC046003Mat
+    second: {fileID: 2100000, guid: e28b4de75bc65471d84fe6c1faac2565, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: NightstandOutline_NightstandFBXASC046004Mat
+    second: {fileID: 2100000, guid: c7c66e644790840fa81587eadfd55d47, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: NightstandOutline_NightstandFBXASC046005Mat
+    second: {fileID: 2100000, guid: aacf3ae0b9872430bbd7d4fd50f02e70, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: NightstandOutline_NightstandFBXASC046006Mat
+    second: {fileID: 2100000, guid: 28162a7c2ca7c4d8fa9a8b169fc67fb4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: NightstandOutline_NightstandFBXASC046007Mat
+    second: {fileID: 2100000, guid: 75b4ecd930f6c4c7d8579f06fcf65561, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: NightstandOutline_NightstandFBXASC046008Mat
+    second: {fileID: 2100000, guid: 8c2d7649372de45b8bd21926f002d82c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: NightstandOutline_NightstandFBXASC046009Mat
+    second: {fileID: 2100000, guid: f3d99594a18134aa0b93e1ef09006ba9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: NightstandOutline_NightstandFBXASC046010Mat
+    second: {fileID: 2100000, guid: 14465192318db48e096a8806c0f5c3a9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: NightstandOutline_NightstandFBXASC046011Mat
+    second: {fileID: 2100000, guid: b0642c7f435554c308a4659bb3b1b4be, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: NightstandOutline_NightstandFBXASC046012Mat
+    second: {fileID: 2100000, guid: e4127407107804de8b2a1825b7392cfc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: NightstandOutline_NightstandFBXASC046013Mat
+    second: {fileID: 2100000, guid: 1da4651aad60041fc93c2590adb0e7dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: NightstandOutline_NightstandFBXASC046014Mat
+    second: {fileID: 2100000, guid: af01f3bd3e9cc452cbe6a277f4232bca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: NightstandOutline_NightstandFBXASC046015Mat
+    second: {fileID: 2100000, guid: 7ce91ac02cf034191bd9c67c43e70513, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: NightstandOutline_NightstandFBXASC046016Mat
+    second: {fileID: 2100000, guid: e53e86c2fcbf348f1a77bc959046698d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: NightstandOutline_NightstandFBXASC046017Mat
+    second: {fileID: 2100000, guid: fec3301115dc24617be1e32ba9d5878e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: NightstandOutline_NightstandFBXASC046018Mat
+    second: {fileID: 2100000, guid: 88637859c231947df8ea0a2171ad3a7c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: NightstandOutline_NightstandFBXASC046019Mat
+    second: {fileID: 2100000, guid: d6172c1a35da74a49a624a5dee65ba2d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: NightstandOutline_NightstandFBXASC046020Mat
+    second: {fileID: 2100000, guid: e6724c902f3da4984b974e4b2c7b0210, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: NightstandOutline_NightstandFBXASC046021Mat
+    second: {fileID: 2100000, guid: 0d1c2b7bdcc3a4a64aad313a232cab95, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: NightstandOutline_NightstandFBXASC046022Mat
+    second: {fileID: 2100000, guid: 41007ea5f4df547fd8e9d03425780f79, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: NightstandOutline_NightstandFBXASC046023Mat
+    second: {fileID: 2100000, guid: 2c7c78a44ee4845e5a3d4ffddf900b5a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: NightstandOutline_NightstandMat
+    second: {fileID: 2100000, guid: 16d2ad56bed43403eb6717966b240135, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SmallStoolOutlineMat
+    second: {fileID: 2100000, guid: bf6d695fc9a124dbc97230eaa3350d89, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SmallStoolOutline_SmallStoolFBXASC046002Mat
+    second: {fileID: 2100000, guid: a36e1ddf211404716892883864c3d579, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SmallStoolOutline_SmallStoolFBXASC046003Mat
+    second: {fileID: 2100000, guid: 960d1228526434c96ab85112a4249d6a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SmallStoolOutline_SmallStoolFBXASC046004Mat
+    second: {fileID: 2100000, guid: 82a2cc9bdef4e43e0a18ca0ea18c750b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SmallStoolOutline_SmallStoolMat
+    second: {fileID: 2100000, guid: 2d49a0f325b6b4d2f8987aabff43a076, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group_pasted__NightstandFBXASC046001Mat
+    second: {fileID: 2100000, guid: db127ba3a0280426ab90ad737df33fa5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group_pasted__NightstandFBXASC046002Mat
+    second: {fileID: 2100000, guid: 41a81c43ed2e24f858c2fcc0e4b069a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group_pasted__NightstandFBXASC046003Mat
+    second: {fileID: 2100000, guid: 87e1520874a804075af695f7d9385840, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group_pasted__NightstandFBXASC046004Mat
+    second: {fileID: 2100000, guid: 2a4c0b9204546446e9841fa97ab61c9c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group_pasted__NightstandFBXASC046005Mat
+    second: {fileID: 2100000, guid: 93f264d11fde34534a3a2f00fec619e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group_pasted__NightstandFBXASC046006Mat
+    second: {fileID: 2100000, guid: fefd25d6422f4422189d0515cf8fdc00, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group_pasted__NightstandFBXASC046007Mat
+    second: {fileID: 2100000, guid: d8737be07a9af472381039ea1d8b9521, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group_pasted__NightstandFBXASC046008Mat
+    second: {fileID: 2100000, guid: def7dfef1296f4d59b303dc956decfaa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group_pasted__NightstandFBXASC046009Mat
+    second: {fileID: 2100000, guid: 48db9e1c3b81d48d3badf4b3ff5f07bc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group_pasted__NightstandFBXASC046010Mat
+    second: {fileID: 2100000, guid: 10f39c52984f8432a8733a19df6af2d2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group_pasted__NightstandFBXASC046011Mat
+    second: {fileID: 2100000, guid: c341c7d91cbeb42f4b76c5c3098f848c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group_pasted__NightstandFBXASC046012Mat
+    second: {fileID: 2100000, guid: 05361bc9ff76e411eb9ae38bfc6b5b16, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group_pasted__NightstandFBXASC046013Mat
+    second: {fileID: 2100000, guid: 8158d82e895504804a1b757db9f0cc55, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group_pasted__NightstandFBXASC046014Mat
+    second: {fileID: 2100000, guid: de405821186c1492394e1ede41bc4e4d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group_pasted__NightstandFBXASC046015Mat
+    second: {fileID: 2100000, guid: 7d5d1d7e0e22d4ea2949ed0db22cf371, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group_pasted__NightstandFBXASC046016Mat
+    second: {fileID: 2100000, guid: 7d30d60bc33dc443ca6338dce3a35693, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group_pasted__NightstandFBXASC046017Mat
+    second: {fileID: 2100000, guid: 232361ffb18394fce95d6b9fd54ec018, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group_pasted__NightstandFBXASC046018Mat
+    second: {fileID: 2100000, guid: 986c0d9407101426e9a3a53b2f124dcf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group_pasted__NightstandFBXASC046019Mat
+    second: {fileID: 2100000, guid: 4d291fb26da7c4ba79f2edd28d6ab8a4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group_pasted__NightstandFBXASC046020Mat
+    second: {fileID: 2100000, guid: 740f7e9f42e144d039f0c0be5f63aab4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group_pasted__NightstandFBXASC046021Mat
+    second: {fileID: 2100000, guid: 20dcf3d0ff2184e57a916aecf87d3b75, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group_pasted__NightstandFBXASC046023Mat
+    second: {fileID: 2100000, guid: ed2ecefd35ad24340a28a515d95e0f76, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group_pasted__NightstandMat
+    second: {fileID: 2100000, guid: 3e67120b5a1264a8098e2578a10eab45, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: group_pasted__NightstandOutlineMat
+    second: {fileID: 2100000, guid: 6dd0b0b56050c4a7b85a4e4095519ab8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pCube1Mat
+    second: {fileID: 2100000, guid: dc91ca93965e74ebe85e404ca232093d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pCube1_pasted__ClossetOutline_group1Mat
+    second: {fileID: 2100000, guid: 54c8cfc4f5639469aa3de5d17aa0bfd7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pCube1_pasted__ClossetOutline_group1_pasted__ClossetFBXASC046001Mat
+    second: {fileID: 2100000, guid: 1bf60d40bfb414438a40324afa4e56a5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pCube1_pasted__ClossetOutline_group1_pasted__ClossetFBXASC046002Mat
+    second: {fileID: 2100000, guid: 3acc3fcb0236b4c8c9ecd46147376fcc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pCube1_pasted__ClossetOutline_group1_pasted__ClossetFBXASC046003Mat
+    second: {fileID: 2100000, guid: fb01f66517a4a44f1b3dd5a0893aa339, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pCube1_pasted__ClossetOutline_group1_pasted__ClossetFBXASC046004Mat
+    second: {fileID: 2100000, guid: 6dc9fa2dff38947a89b9a2f01fa3d928, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pCube1_pasted__ClossetOutline_group1_pasted__ClossetFBXASC046005Mat
+    second: {fileID: 2100000, guid: a4db2e7e69db84c10a1fc721666c2b31, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pCube1_pasted__ClossetOutline_group1_pasted__ClossetFBXASC046006Mat
+    second: {fileID: 2100000, guid: 8358d2fba02194e5797064454999b24a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pCube1_pasted__ClossetOutline_group1_pasted__ClossetFBXASC046007Mat
+    second: {fileID: 2100000, guid: a84039f3158e94ba18bf1eaa4d7f0644, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pCube1_pasted__ClossetOutline_group1_pasted__ClossetFBXASC046008Mat
+    second: {fileID: 2100000, guid: 902dc50453ca44aca9a5396419020aaa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pCube1_pasted__ClossetOutline_group1_pasted__ClossetFBXASC046009Mat
+    second: {fileID: 2100000, guid: 23ad9dc739d8941a0b47340af157bfbb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pCube1_pasted__ClossetOutline_group1_pasted__ClossetFBXASC046010Mat
+    second: {fileID: 2100000, guid: 6f21bf101378547f2a7fd58a619c5278, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pCube1_pasted__ClossetOutline_group1_pasted__ClossetFBXASC046011Mat
+    second: {fileID: 2100000, guid: c0157bc0344f94d34b036c83d8457356, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pCube1_pasted__ClossetOutline_group1_pasted__ClossetFBXASC046012Mat
+    second: {fileID: 2100000, guid: f354590436c494761b1e91d2143b404a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pCube1_pasted__ClossetOutline_group1_pasted__ClossetFBXASC046013Mat
+    second: {fileID: 2100000, guid: 566cdba8a3ad94a8da2dcc7e7b56b849, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pCube1_pasted__ClossetOutline_group1_pasted__ClossetFBXASC046014Mat
+    second: {fileID: 2100000, guid: 748e9a5dc6b364c09adcbd7089335fbc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pCube1_pasted__ClossetOutline_group1_pasted__ClossetFBXASC046015Mat
+    second: {fileID: 2100000, guid: 06a183144cbba4a8fbe7aca73bef9f23, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pCube1_pasted__ClossetOutline_group1_pasted__ClossetMat
+    second: {fileID: 2100000, guid: f87f31d21c17840fcb669d9ebb67a2e0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pCylinder1Mat
+    second: {fileID: 2100000, guid: 88f9c129803da46b59ea904777f3c240, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__NightstandFBXASC046022_groupMat
+    second: {fileID: 2100000, guid: 5ffaed8fdf2874d3ba65ed5aab9537be, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

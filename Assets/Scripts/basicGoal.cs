@@ -7,7 +7,8 @@ public class basicGoal : MonoBehaviour
 {
     [SerializeField] private AudioSource audioSource;
     [SerializeField] private string dialogue;
-    [SerializeField] private ParticleSystem particleFX = null;
+    [SerializeField] private ParticleSystem particleFX;
+    [SerializeField] private SpriteRenderer dialogueBubble;
     
     public bool hit;
 
@@ -27,6 +28,8 @@ public class basicGoal : MonoBehaviour
         particleFX.Play();
         // dialogue
         Debug.Log("dialogue");
+        // switch out Panel prefab to Colored
+        // this.child."name".gameobject.setactive = true or smth LOL
         //DialogueManager.DisplayDialogue(dialogue); -> takes the string dialogue and pops it into the respective UI area
         //Destroy(gameObject);
     }
