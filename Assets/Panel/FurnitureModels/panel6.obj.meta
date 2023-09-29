@@ -1,0 +1,224 @@
+fileFormatVersion: 2
+guid: 17b532b91f98845deabdb26abc48cb8f
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CardboxMat
+    second: {fileID: 2100000, guid: fe1aaebc3d2fc4c0d9c150891da9e980, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CubeFBXASC046019Mat
+    second: {fileID: 2100000, guid: 25b2966c8b8cf4440a5d3ca88d6548ed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CubeFBXASC046061Mat
+    second: {fileID: 2100000, guid: 6f5c08d9685374b5da23822fe8e90d98, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CubeFBXASC046129Mat
+    second: {fileID: 2100000, guid: 6ea459a9e11e74f17bba838709159adf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: David_Head_scene_David_Head_David_head_by_1D_0_David_Head_David_head_by_1D_0_David_Head_David_head_by_1D_David_Head_Root_David_Head_Sketchfab_model_David_Head_MeshesMat
+    second: {fileID: 2100000, guid: 475f45bc670d943c5a63d4629374f2c9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Easel_01aFBXASC046002Mat
+    second: {fileID: 2100000, guid: c177e1f333ba3412293362e3ed716380, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Elder_Scroll1_Object_0_Elder_Scroll1_Object_4_Elder_Scroll1_letter_0_Elder_Scroll1_GLTF_SceneRootNode_Elder_Scroll1_root_Elder_Scroll1_Sketchfab_model_Elder_Scroll1_Meshes_Elder_Scroll1_scene_group4Mat
+    second: {fileID: 2100000, guid: 5763e7f56caa24047ad15ea5b8ddf156, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Elder_Scroll2_Object_0_Elder_Scroll2_Object_4_Elder_Scroll2_letter_0_Elder_Scroll2_GLTF_SceneRootNode_Elder_Scroll2_root_Elder_Scroll2_Sketchfab_model_Elder_Scroll2_Meshes_Elder_Scroll2_scene_pasted__group4_group5Mat
+    second: {fileID: 2100000, guid: 578e1c0342fd449beac5f3498ac380c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: box_v1FBXASC0452_lowMat
+    second: {fileID: 2100000, guid: 21da445ab2ae34b8a900a604f7f6696a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: box_wood_v1FBXASC0452_lowMat
+    second: {fileID: 2100000, guid: ed5ea6b565447460a8a204ff3ede8edb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: crate2Mat
+    second: {fileID: 2100000, guid: 1c02d0d61e0e74a0e9647ab794f16180, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: crate4Mat
+    second: {fileID: 2100000, guid: 9ad20f1e3d76a4f10ac59a09538d0597, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: crate5Mat
+    second: {fileID: 2100000, guid: d1c8d30e40c644248aafd1e1bef2f348, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: escada_Escada_hall_Escada_hallMat
+    second: {fileID: 2100000, guid: d69810bee7d6e412f8c93b5121f372c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: model_crate_MeshMat
+    second: {fileID: 2100000, guid: cb71585c94cee4f17b3f62a1e7f9e81c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pCube1Mat
+    second: {fileID: 2100000, guid: 85a0140b9301e4f08a8863c683522324, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pCube2Mat
+    second: {fileID: 2100000, guid: bfa380c6f59b84b6bab0bbcb103b8dfd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pCube3_David_Head_sceneMat
+    second: {fileID: 2100000, guid: 5c423733110e34a7e8dc3b0dbf794819, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__Cardbox_group2Mat
+    second: {fileID: 2100000, guid: aad3ce7d650264bf3b695e57002976b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__CubeFBXASC046019_group12Mat
+    second: {fileID: 2100000, guid: 2ea38b73193bb49a2803034bc1f4474f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__CubeFBXASC046129_group14Mat
+    second: {fileID: 2100000, guid: 229e129b5f05a4bfb913988bf360b997, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__pasted__CubeFBXASC046019_pasted__group12_group13Mat
+    second: {fileID: 2100000, guid: dce649b882b6b4e4e994b49683f926d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: telescopeMat
+    second: {fileID: 2100000, guid: 004f163ffbe31499d97b4f1dd650047c, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

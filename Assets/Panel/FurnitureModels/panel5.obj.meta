@@ -1,0 +1,369 @@
+fileFormatVersion: 2
+guid: 5e13124788a174e4c9d2f575a6431e70
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CubeFBXASC046001Mat
+    second: {fileID: 2100000, guid: e3e47529e1cb04450b9d67d8e2c190bb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CubeFBXASC046007Mat
+    second: {fileID: 2100000, guid: 36a2eb297b3fd482d932398013722147, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CubeFBXASC046019Mat
+    second: {fileID: 2100000, guid: 09ba72b35441a47fc9b252dbe176568f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CubeFBXASC046034Mat
+    second: {fileID: 2100000, guid: 03f421b6db27f450aba95a96be03e91d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CubeFBXASC046042Mat
+    second: {fileID: 2100000, guid: 9f13ad4e831464142b7c3ee5f9b41ba1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CubeFBXASC046051Mat
+    second: {fileID: 2100000, guid: 49bdba6de7d174cd4b89df55c0ddf50f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CubeMat
+    second: {fileID: 2100000, guid: 90976444731a74140ae57db5d7d712e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FloatingFBXASC032shelfMat
+    second: {fileID: 2100000, guid: 7a8213d0d6ac74792b73d6eb3b609f26, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FloatingFBXASC032shelf_Rail1Mat
+    second: {fileID: 2100000, guid: c27f1ef524c1c41379d18d6e231f27b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FloatingFBXASC032shelf_Rail2Mat
+    second: {fileID: 2100000, guid: f79b0d6c89d0548e495e3f95d2d09ba2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FloatingFBXASC032shelf_Rail3Mat
+    second: {fileID: 2100000, guid: d62fc42908855434d9fe760b31b3ea34, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FloatingFBXASC032shelf_Rail4Mat
+    second: {fileID: 2100000, guid: 27226a47ddafd4802aa1065920e32a0e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FloatingFBXASC032shelf_Rail5Mat
+    second: {fileID: 2100000, guid: b9517c199174b4783b5c6a51b658185c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FloatingFBXASC032shelf_Shelf1Mat
+    second: {fileID: 2100000, guid: fedb6e324fc224095859e8789e06cb0a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FloatingFBXASC032shelf_Shelf2Mat
+    second: {fileID: 2100000, guid: e18af4c11aa564743a52dd2ded9ffd81, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FloatingFBXASC032shelf_Shelf3Mat
+    second: {fileID: 2100000, guid: 09d18f944c77c481d936b17bd23b26de, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FloatingFBXASC032shelf_Shelf4Mat
+    second: {fileID: 2100000, guid: 560db4f96b403465faa67bd9fc679cca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PictureMat
+    second: {fileID: 2100000, guid: d1e748bdb92b048a393d78f96d73eaf2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PotFBXASC032AMat
+    second: {fileID: 2100000, guid: 087f1f8ce2567496bae7c7b97bb1b5dd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PotFBXASC032A_CircleMat
+    second: {fileID: 2100000, guid: a36c74e82fa7244408845837ae4c345e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PotFBXASC032A_PlaneFBXASC032A1FBXASC046001Mat
+    second: {fileID: 2100000, guid: 80e517223c788433787194c2911c1e03, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PotFBXASC032A_PlaneFBXASC032A1FBXASC046002Mat
+    second: {fileID: 2100000, guid: 654a53eb710bd4da59bbd9ea091214d1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PotFBXASC032A_PlaneFBXASC032A1FBXASC046003Mat
+    second: {fileID: 2100000, guid: e480f908b3d7c4c9ebf8c2724cecdcd2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PotFBXASC032A_PlaneFBXASC032A1FBXASC046004Mat
+    second: {fileID: 2100000, guid: 75d8e101b5e0142978d8dca1fe80c494, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PotFBXASC032A_PlaneFBXASC032A1FBXASC046005Mat
+    second: {fileID: 2100000, guid: 85740f0dde0aa4541af05cd3a3b03942, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PotFBXASC032A_PlaneFBXASC032A1Mat
+    second: {fileID: 2100000, guid: b27bf86a97a1d4f4bbf277040d2cd972, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tokyo_Frame_Network1_scene_Tokyo_Frame_Network1_Object_0_Tokyo_Frame_Network1_Object_2_Tokyo_Frame_Network1_TOKYO_FRAME_NETWORK__stl_cleaner_materialmerger_gles_Tokyo_Frame_Network1_Sketchfab_model_Tokyo_Frame_Network1_MeshesMat
+    second: {fileID: 2100000, guid: d393ffc0eff0e423ebc2db75e9ec2c32, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tokyo_Frame_Network1_scene_Tokyo_Frame_Network1_TOKYO_FRAME_NETWORK__stl_cleaner_materialmerger_gles_Tokyo_Frame_Network1_Sketchfab_model_Tokyo_Frame_Network1_Meshes_Tokyo_Frame_Network1_Object_1_Tokyo_Frame_Network1_Object_3Mat
+    second: {fileID: 2100000, guid: 31892db177e42499a8faae4b1ca261c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tokyo_Frame_Network1_scene_Tokyo_Frame_Network1_TOKYO_FRAME_NETWORK__stl_cleaner_materialmerger_gles_Tokyo_Frame_Network1_Sketchfab_model_Tokyo_Frame_Network1_Meshes_Tokyo_Frame_Network1_Object_2_Tokyo_Frame_Network1_Object_4Mat
+    second: {fileID: 2100000, guid: c873d193470dd4f06b9f873461b76b81, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tokyo_Frame_Network1_scene_Tokyo_Frame_Network1_TOKYO_FRAME_NETWORK__stl_cleaner_materialmerger_gles_Tokyo_Frame_Network1_Sketchfab_model_Tokyo_Frame_Network1_Meshes_Tokyo_Frame_Network1_Object_3_Tokyo_Frame_Network1_Object_5Mat
+    second: {fileID: 2100000, guid: d5dc947fd8f034c51b224e8b848ad7fa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tokyo_Frame_Network1_scene_Tokyo_Frame_Network1_TOKYO_FRAME_NETWORK__stl_cleaner_materialmerger_gles_Tokyo_Frame_Network1_Sketchfab_model_Tokyo_Frame_Network1_Meshes_Tokyo_Frame_Network1_Object_4_Tokyo_Frame_Network1_Object_6Mat
+    second: {fileID: 2100000, guid: e44448111cacc4d4dac78d6653115005, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tokyo_Frame_Network1_scene_Tokyo_Frame_Network1_TOKYO_FRAME_NETWORK__stl_cleaner_materialmerger_gles_Tokyo_Frame_Network1_Sketchfab_model_Tokyo_Frame_Network1_Meshes_Tokyo_Frame_Network1_Object_5_Tokyo_Frame_Network1_Object_7Mat
+    second: {fileID: 2100000, guid: 11e97c120adf941009ce3eae3ff4049e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tokyo_Frame_Network1_scene_Tokyo_Frame_Network1_TOKYO_FRAME_NETWORK__stl_cleaner_materialmerger_gles_Tokyo_Frame_Network1_Sketchfab_model_Tokyo_Frame_Network1_Meshes_Tokyo_Frame_Network1_Object_6_Tokyo_Frame_Network1_Object_8Mat
+    second: {fileID: 2100000, guid: 537849473fbcc487d8e8392f9ba7990a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tokyo_Frame_Network1_scene_Tokyo_Frame_Network1_TOKYO_FRAME_NETWORK__stl_cleaner_materialmerger_gles_Tokyo_Frame_Network1_Sketchfab_model_Tokyo_Frame_Network1_Meshes_Tokyo_Frame_Network1_Object_7_Tokyo_Frame_Network1_Object_9Mat
+    second: {fileID: 2100000, guid: ab134086b76ef4e5e9b873752651c1f4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _Pianoexport_MeshMat
+    second: {fileID: 2100000, guid: b65f4ecf494014c0bbf367a62eb3e1d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: indoor_plant_02Mat
+    second: {fileID: 2100000, guid: 00462788358134b1b85b9bce86210334, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pCube68Mat
+    second: {fileID: 2100000, guid: 6c5565a1d296d465ca513c9e8cb14bc4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pCube69_Tokyo_Frame_Network1_sceneMat
+    second: {fileID: 2100000, guid: 05d17f9b9f18c4108b93628862f51fa7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pCylinder1Mat
+    second: {fileID: 2100000, guid: 3f5df0b0507cf4feabafc1e6e9794c1e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__Cube_group4Mat
+    second: {fileID: 2100000, guid: ef9c8ef01da2e498b99f1aae0a67b6d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__Cube_groupMat
+    second: {fileID: 2100000, guid: c55515a2e4c034b23aa5cf0aae0394f7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__FloatingFBXASC032shelf_group3Mat
+    second: {fileID: 2100000, guid: 000b06906227d4c34b3ff939aa84b954, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__FloatingFBXASC032shelf_group3_pasted__Rail1Mat
+    second: {fileID: 2100000, guid: 82a45e78f02404beeb92e5199f993824, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__FloatingFBXASC032shelf_group3_pasted__Rail2Mat
+    second: {fileID: 2100000, guid: e4ba746ad71cd45789b55f2ca5aff592, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__FloatingFBXASC032shelf_group3_pasted__Rail3Mat
+    second: {fileID: 2100000, guid: d299c3c4194fc4e4299a5ac38e12ee1a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__FloatingFBXASC032shelf_group3_pasted__Rail4Mat
+    second: {fileID: 2100000, guid: 8572f8b9a892f44589493b9f4bdc1afe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__FloatingFBXASC032shelf_group3_pasted__Rail5Mat
+    second: {fileID: 2100000, guid: 19f9512b1c45844b7b7f2f565f13e2bd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__FloatingFBXASC032shelf_group3_pasted__Shelf1Mat
+    second: {fileID: 2100000, guid: c04e2f8edea0644ad8fc3bdee6a7849d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__FloatingFBXASC032shelf_group3_pasted__Shelf2Mat
+    second: {fileID: 2100000, guid: bbc8e6e914382404a9d1bf62e6e0fbaa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__FloatingFBXASC032shelf_group3_pasted__Shelf3Mat
+    second: {fileID: 2100000, guid: be97f307c3ab04c719f6439298fdadac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__FloatingFBXASC032shelf_group3_pasted__Shelf4Mat
+    second: {fileID: 2100000, guid: e319c3a81e3fb4bbaa02cf26d114a734, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__Picture_group5Mat
+    second: {fileID: 2100000, guid: aa06ce36afe5f4e1b99095247adfadb5, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
