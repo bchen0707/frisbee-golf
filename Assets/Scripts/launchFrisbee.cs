@@ -37,13 +37,15 @@ public class launchFrisbee : MonoBehaviour
     {
         readyToThrow = false;
         totalThrows++;
-        GameObject frisbeeObject = Instantiate(frisbee, attackPoint.position, cam.rotation);
+        Quaternion qb = new Quaternion(0, 0, 0, 1);
+        GameObject frisbeeObject = Instantiate(frisbee, attackPoint.position, Quaternion.identity);
         Rigidbody frisbeeRb = frisbeeObject.GetComponent<Rigidbody>();
+        //frisbeeRb.rotation = qb;
         frisbeeRb.isKinematic = false;
         // frisbeeRb.useGravity = true;
         Vector3 frisbeeArc = cam.transform.forward;
         RaycastHit hit;
-        if(Physics.Raycast(cam.position, cam.forward, out hit, 500f))
+        if(Physics.Raycast(cam.position, cam.forward, out hit, 50f))
         {
             frisbeeArc = (hit.point-attackPoint.position).normalized;
         }
@@ -57,5 +59,10 @@ public class launchFrisbee : MonoBehaviour
     private void ResetThrow()
     {
         readyToThrow = true;
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        Debug.Log(collision.transform.name);
     }
 }
