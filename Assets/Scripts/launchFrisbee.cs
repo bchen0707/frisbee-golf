@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.XR;
+using UnityEngine.XR.Interaction.Toolkit;
 using TMPro;
 
 public class launchFrisbee : MonoBehaviour
@@ -19,6 +19,9 @@ public class launchFrisbee : MonoBehaviour
 
     bool readyToThrow;
 
+    public XRController rightHand;
+    public InputHelpers.Button button;
+
     private void Start()
     {
         readyToThrow = true;
@@ -26,20 +29,18 @@ public class launchFrisbee : MonoBehaviour
 
     private void Update()
     {
-        
-
-        /*bool value;
-        if (UnityEngine.XR.InputDevices.GetDeviceAtXRNode(XRNode.RightHand).TryGetFeatureValue(new("TriggerTouch"), out value))
-        {
-            hand.triggerTouch = value;
-        }
-        if (value && readyToThrow)
-        {
-            Throw();
-        }*/
         if (Input.GetKeyDown(throwKey) && readyToThrow)
         {
             Throw();
+        }
+
+        bool pressed;
+        rightHand.inputDevice.IsPressed(button, out pressed);
+
+        if (pressed)
+        {
+            Throw();
+            Debug.Log("XR throw");
         }
     }
 
