@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.34164786, g: 0.34186524, b: 0.34171513, a: 1}
+  m_IndirectSpecularColor: {r: 0.34164816, g: 0.34186575, b: 0.3417156, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -527,7 +527,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 3d6a7d16ccfcec24f967f2da670227e4, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 565207373f23c3e438e47d467085ec59, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -1478,7 +1478,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 3d6a7d16ccfcec24f967f2da670227e4, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 77a795c3771a8c34c90c7114ab5545c5, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -1580,7 +1580,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 3d6a7d16ccfcec24f967f2da670227e4, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 77a795c3771a8c34c90c7114ab5545c5, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -1872,7 +1872,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 3d6a7d16ccfcec24f967f2da670227e4, type: 3}
+  m_audioClip: {fileID: 8300000, guid: cfc06adace5c96e418f9fe1437ced06f, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -2977,6 +2977,11 @@ PrefabInstance:
     - target: {fileID: 6886098233650851764, guid: 6000a01719cff99429d6be7a95afb4f3,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6980992881323701567, guid: 6000a01719cff99429d6be7a95afb4f3,
+        type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8156238858072567158, guid: 6000a01719cff99429d6be7a95afb4f3,
