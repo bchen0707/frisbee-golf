@@ -9,6 +9,8 @@ public class basicGoal : MonoBehaviour
     [SerializeField] private string dialogue;
     [SerializeField] private ParticleSystem particleFX;
     [SerializeField] private SpriteRenderer dialogueBubble;
+    public GameObject UncoloredPanel;
+    public GameObject ColoredPanel;
     
     public bool hit;
 
@@ -29,6 +31,9 @@ public class basicGoal : MonoBehaviour
         // dialogue
         Debug.Log("dialogue");
         // switch out Panel prefab to Colored
+        UncoloredPanel.SetActive(false);
+        ColoredPanel.SetActive(true);
+
         // this.child."name".gameobject.setactive = true or smth LOL
         //DialogueManager.DisplayDialogue(dialogue); -> takes the string dialogue and pops it into the respective UI area
         //Destroy(gameObject);
