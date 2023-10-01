@@ -2066,55 +2066,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2009665246237095973, guid: 474f5fca836488f4490ed92baae1f901,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2009665246237095973, guid: 474f5fca836488f4490ed92baae1f901,
-        type: 3}
-      propertyPath: grammaphone
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 2628738669033151995, guid: 474f5fca836488f4490ed92baae1f901,
         type: 3}
       propertyPath: m_Name
       value: RecordDisc
       objectReference: {fileID: 0}
-    - target: {fileID: 2628738669033151995, guid: 474f5fca836488f4490ed92baae1f901,
-        type: 3}
-      propertyPath: m_TagString
-      value: Disc
-      objectReference: {fileID: 0}
-    - target: {fileID: 3400489610860398401, guid: 474f5fca836488f4490ed92baae1f901,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 50
-      objectReference: {fileID: 0}
-    - target: {fileID: 3400489610860398401, guid: 474f5fca836488f4490ed92baae1f901,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 50
-      objectReference: {fileID: 0}
-    - target: {fileID: 3400489610860398401, guid: 474f5fca836488f4490ed92baae1f901,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.25
-      objectReference: {fileID: 0}
     - target: {fileID: 3400489610860398401, guid: 474f5fca836488f4490ed92baae1f901,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 59.06
+      value: 51
       objectReference: {fileID: 0}
     - target: {fileID: 3400489610860398401, guid: 474f5fca836488f4490ed92baae1f901,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 21.78
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3400489610860398401, guid: 474f5fca836488f4490ed92baae1f901,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 50.47
+      value: 47
       objectReference: {fileID: 0}
     - target: {fileID: 3400489610860398401, guid: 474f5fca836488f4490ed92baae1f901,
         type: 3}
@@ -2150,16 +2120,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7805935146123994327, guid: 474f5fca836488f4490ed92baae1f901,
-        type: 3}
-      propertyPath: m_UseGravity
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7805935146123994327, guid: 474f5fca836488f4490ed92baae1f901,
-        type: 3}
-      propertyPath: m_IsKinematic
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
