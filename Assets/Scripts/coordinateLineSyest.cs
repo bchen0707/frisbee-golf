@@ -4,6 +4,13 @@ using UnityEngine;
 
 public class coordinateLineSyest : MonoBehaviour
 {
+    //beat
+    [SerializeField] bool _useTestBeat;
+    [SerializeField] float _pulseSize = 1.15f;
+    [SerializeField] float _returnSpeed = 5f;
+    private Vector3 _startSize;
+
+
     public GameObject prefabC;
     public GameObject prefabD;
     public List<GameObject> objectList;
@@ -32,6 +39,15 @@ public class coordinateLineSyest : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //beat
+        _startSize = transform.localScale;
+        if (_useTestBeat)
+        {
+            StartCoroutine(TestBeat());
+        }
+
+
+
         containerC = new GameObject("containerC");
         containerD = new GameObject("containerD");
 
@@ -106,6 +122,11 @@ public class coordinateLineSyest : MonoBehaviour
                 {
                     GameObject go = layerCut[r, c];
 
+
+                    //beat
+                    go.transform.localScale = Vector3.Lerp(transform.localScale, _startSize, Time.deltaTime * _returnSpeed);
+
+                    /*
                     //noise sampling moves linearly
                     float noiseOffset = Time.time;
                 
@@ -116,9 +137,28 @@ public class coordinateLineSyest : MonoBehaviour
                     Vector3 scale = go.transform.localScale;
                     scale.z = noise * scaleMultiplier;
                     go.transform.localScale = scale;
+                    */
+
                 }
             }
         }
         
     }
+
+    //beat
+    public void Pulse()
+    {
+        transform.localScale = _startSize * _pulseSize;
+    }
+
+    IEnumerator TestBeat()
+    {
+        while (true)
+        {
+            yield return new WaitForSeconds(1f);
+            Pulse();
+        }
+    }
+
+
 }

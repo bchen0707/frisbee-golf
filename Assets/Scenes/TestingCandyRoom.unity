@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 3a408e788dcbed6429c8d22a01b32a76, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.34164816, g: 0.34186575, b: 0.3417156, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -205,6 +205,51 @@ PrefabInstance:
         type: 3}
       propertyPath: _intervals.Array.size
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8143003788381753066, guid: f7d5ad5f367ff2049bba195888dec121,
+        type: 3}
+      propertyPath: _intervals.Array.data[0]._steps
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8143003788381753066, guid: f7d5ad5f367ff2049bba195888dec121,
+        type: 3}
+      propertyPath: _intervals.Array.data[1]._steps
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8143003788381753066, guid: f7d5ad5f367ff2049bba195888dec121,
+        type: 3}
+      propertyPath: _intervals.Array.data[0]._trigger.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8143003788381753066, guid: f7d5ad5f367ff2049bba195888dec121,
+        type: 3}
+      propertyPath: _intervals.Array.data[1]._trigger.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8143003788381753066, guid: f7d5ad5f367ff2049bba195888dec121,
+        type: 3}
+      propertyPath: _intervals.Array.data[0]._trigger.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8143003788381753066, guid: f7d5ad5f367ff2049bba195888dec121,
+        type: 3}
+      propertyPath: _intervals.Array.data[0]._trigger.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8143003788381753066, guid: f7d5ad5f367ff2049bba195888dec121,
+        type: 3}
+      propertyPath: _intervals.Array.data[0]._trigger.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Pulse
+      objectReference: {fileID: 0}
+    - target: {fileID: 8143003788381753066, guid: f7d5ad5f367ff2049bba195888dec121,
+        type: 3}
+      propertyPath: _intervals.Array.data[0]._trigger.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: Pulse_To_Beat, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8143003788381753066, guid: f7d5ad5f367ff2049bba195888dec121,
+        type: 3}
+      propertyPath: _intervals.Array.data[0]._trigger.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1209,6 +1254,16 @@ PrefabInstance:
       propertyPath: audioSource
       value: 
       objectReference: {fileID: 572640376}
+    - target: {fileID: 8208235742077039230, guid: 6000a01719cff99429d6be7a95afb4f3,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 8208235742077039230, guid: 6000a01719cff99429d6be7a95afb4f3,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 40
+      objectReference: {fileID: 0}
     - target: {fileID: 8529300674892691487, guid: 6000a01719cff99429d6be7a95afb4f3,
         type: 3}
       propertyPath: particleFX
@@ -1231,6 +1286,11 @@ PrefabInstance:
       propertyPath: audioSource
       value: 
       objectReference: {fileID: 572640373}
+    - target: {fileID: 9078656358569902899, guid: 6000a01719cff99429d6be7a95afb4f3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 65770c7abcc6b4b7b9734201fc041dcf, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1985,17 +2045,17 @@ PrefabInstance:
     - target: {fileID: 3400489610860398401, guid: 474f5fca836488f4490ed92baae1f901,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 200
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 3400489610860398401, guid: 474f5fca836488f4490ed92baae1f901,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 200
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 3400489610860398401, guid: 474f5fca836488f4490ed92baae1f901,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 1
+      value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: 3400489610860398401, guid: 474f5fca836488f4490ed92baae1f901,
         type: 3}
@@ -2879,6 +2939,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35f0bc16f3291490ab8a0b94a9bc009e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _useTestBeat: 0
+  _pulseSize: 1.15
+  _returnSpeed: 5
   prefabC: {fileID: 1389592825897040481, guid: 5a0ec3db70b944b13835d762a1302af7, type: 3}
   prefabD: {fileID: 1389592825897040481, guid: e4a521ec92b0b43e69a3bee84ea6a50a, type: 3}
   objectList: []
