@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.34164816, g: 0.34186575, b: 0.3417156, a: 1}
+  m_IndirectSpecularColor: {r: 0.34164786, g: 0.34186524, b: 0.34171513, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -949,40 +949,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2009665246237095973, guid: 474f5fca836488f4490ed92baae1f901,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2009665246237095973, guid: 474f5fca836488f4490ed92baae1f901,
-        type: 3}
-      propertyPath: grammaphone
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 2628738669033151995, guid: 474f5fca836488f4490ed92baae1f901,
         type: 3}
       propertyPath: m_Name
       value: RecordDisc
-      objectReference: {fileID: 0}
-    - target: {fileID: 2628738669033151995, guid: 474f5fca836488f4490ed92baae1f901,
-        type: 3}
-      propertyPath: m_TagString
-      value: Disc
-      objectReference: {fileID: 0}
-    - target: {fileID: 3400489610860398401, guid: 474f5fca836488f4490ed92baae1f901,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 200
-      objectReference: {fileID: 0}
-    - target: {fileID: 3400489610860398401, guid: 474f5fca836488f4490ed92baae1f901,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 200
-      objectReference: {fileID: 0}
-    - target: {fileID: 3400489610860398401, guid: 474f5fca836488f4490ed92baae1f901,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3400489610860398401, guid: 474f5fca836488f4490ed92baae1f901,
         type: 3}
@@ -1033,26 +1003,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7805935146123994327, guid: 474f5fca836488f4490ed92baae1f901,
-        type: 3}
-      propertyPath: m_UseGravity
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7805935146123994327, guid: 474f5fca836488f4490ed92baae1f901,
-        type: 3}
-      propertyPath: m_Constraints
-      value: 112
-      objectReference: {fileID: 0}
-    - target: {fileID: 7805935146123994327, guid: 474f5fca836488f4490ed92baae1f901,
-        type: 3}
-      propertyPath: m_ImplicitCom
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7805935146123994327, guid: 474f5fca836488f4490ed92baae1f901,
-        type: 3}
-      propertyPath: m_IsKinematic
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
