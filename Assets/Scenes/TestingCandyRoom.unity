@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028334, g: 0.22571337, b: 0.3069219, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -767,16 +767,12 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 417051391821959603, guid: f0ef1c91c9c4840c9b2cfaebbd1c8331,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 1481491370625790466, guid: f0ef1c91c9c4840c9b2cfaebbd1c8331,
         type: 3}
       propertyPath: m_Name
       value: XRRig
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1481491370625790466, guid: f0ef1c91c9c4840c9b2cfaebbd1c8331,
         type: 3}
       propertyPath: m_IsActive
@@ -907,6 +903,8 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 2.0872223
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     - target: {fileID: 7902108152800513368, guid: f0ef1c91c9c4840c9b2cfaebbd1c8331,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -957,12 +955,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8124648369370717754, guid: f0ef1c91c9c4840c9b2cfaebbd1c8331,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
+<<<<<<< Updated upstream
     m_RemovedGameObjects:
     - {fileID: 8124648369370717754, guid: f0ef1c91c9c4840c9b2cfaebbd1c8331, type: 3}
     - {fileID: 417051391821959603, guid: f0ef1c91c9c4840c9b2cfaebbd1c8331, type: 3}
@@ -984,62 +978,12 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 487816251}
+=======
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+>>>>>>> Stashed changes
   m_SourcePrefab: {fileID: 100100000, guid: f0ef1c91c9c4840c9b2cfaebbd1c8331, type: 3}
---- !u!1 &487816247 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1481491370625790466, guid: f0ef1c91c9c4840c9b2cfaebbd1c8331,
-    type: 3}
-  m_PrefabInstance: {fileID: 487816246}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &487816248 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8701510829416887794, guid: f0ef1c91c9c4840c9b2cfaebbd1c8331,
-    type: 3}
-  m_PrefabInstance: {fileID: 487816246}
-  m_PrefabAsset: {fileID: 0}
---- !u!20 &487816249 stripped
-Camera:
-  m_CorrespondingSourceObject: {fileID: 2166021003893920049, guid: f0ef1c91c9c4840c9b2cfaebbd1c8331,
-    type: 3}
-  m_PrefabInstance: {fileID: 487816246}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &487816250 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7902108152800513368, guid: f0ef1c91c9c4840c9b2cfaebbd1c8331,
-    type: 3}
-  m_PrefabInstance: {fileID: 487816246}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &487816251
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 487816247}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 017c5e3933235514c9520e1dace2a4b2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_ActionAssets:
-  - {fileID: -944628639613478452, guid: c348712bda248c246b8c49b3db54643f, type: 3}
---- !u!114 &487816252
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 487816247}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0cb9aa70a22847b5925ee5f067c10a9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Camera: {fileID: 487816249}
-  m_OriginBaseGameObject: {fileID: 487816247}
-  m_CameraFloorOffsetObject: {fileID: 487816248}
-  m_RequestedTrackingOriginMode: 2
-  m_CameraYOffset: 1.1176
 --- !u!1 &555367056
 GameObject:
   m_ObjectHideFlags: 0
@@ -2001,6 +1945,7 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 625820318}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
 --- !u!1001 &668242161
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2075,6 +2020,8 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 668242161}
   m_PrefabAsset: {fileID: 0}
+=======
+>>>>>>> Stashed changes
 --- !u!1001 &740621135
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2217,6 +2164,7 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 742402377}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
 --- !u!1 &809087852 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1894097027227323645, guid: 6000a01719cff99429d6be7a95afb4f3,
@@ -2303,6 +2251,8 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 572640363}
   m_PrefabAsset: {fileID: 0}
+=======
+>>>>>>> Stashed changes
 --- !u!1001 &1107503835
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3278,6 +3228,7 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 51b2473cb3d19405c90ee19cc0505cce, type: 3}
+<<<<<<< Updated upstream
 --- !u!1 &1772387636
 GameObject:
   m_ObjectHideFlags: 0
@@ -3894,6 +3845,8 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 572640363}
   m_PrefabAsset: {fileID: 0}
+=======
+>>>>>>> Stashed changes
 --- !u!1001 &1982359703
 PrefabInstance:
   m_ObjectHideFlags: 0
