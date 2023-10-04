@@ -9,8 +9,8 @@ EditorBuildSettings:
     path: Assets/Scenes/StartMenu.unity
     guid: bdf6a29041cd3604ba93a77f3fca0066
   - enabled: 1
-    path: Assets/Scenes/CandyRoomDraft.unity
-    guid: f1a6033e763b0604598447073d06dc19
+    path: Assets/Scenes/CandyRoomFinal.unity
+    guid: 9c195d29908654e53a3d9d5204b6e851
   - enabled: 1
     path: Assets/Scenes/CreditScene.unity
     guid: ec6a7aef8771b4046ba887dbc120361d

@@ -7,6 +7,8 @@ TagManager:
   - Cube
   - TriggerZone
   - Disc
+  - Grammaphone
+  - FaderScreen
   layers:
   - Default
   - TransparentFX

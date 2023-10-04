@@ -22,9 +22,17 @@ public class Grammaphone : MonoBehaviour
     {
         if (other.CompareTag("Disc"))
         {
-            GameManager.Instance.GoToScene(1);
-            //wait
-            //Call scene transition
+            Debug.Log("disc hit");
+            if (SceneManager.GetActiveScene().name == "StartRoom")
+            {
+                Debug.Log("transition to candyroom");
+                CanvasManager.Instance.TransitionToScene(1);
+            }
+            if(SceneManager.GetActiveScene().name == "CandyRoomFinal")
+            {
+                CanvasManager.Instance.TransitionToScene(2);
+            }
+
         }
     }
 }
