@@ -9,6 +9,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@2.5.1/Runtime/Interaction/Interactables/XRSimpleInteractable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../gdpp-cowherd/Assets/Scripts/Managers/SoundManager.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -93,6 +94,9 @@
       <workItem from="1696178719895" duration="1360000" />
       <workItem from="1696180593256" duration="1067000" />
       <workItem from="1696454780233" duration="5208000" />
+      <workItem from="1696471703726" duration="261000" />
+      <workItem from="1696471974412" duration="5000" />
+      <workItem from="1696471989604" duration="40000" />
     </task>
     <servers />
   </component>
