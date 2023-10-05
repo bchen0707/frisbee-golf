@@ -16,8 +16,9 @@ public class basicGoal : MonoBehaviour
 
     public void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Disc"))
+        if (other.CompareTag("Disc") && (this.CompareTag("Panel")))
         {
+            GameManager.Instance.panelHitCount += 1;
             goalHitEvent();
         }
     }
