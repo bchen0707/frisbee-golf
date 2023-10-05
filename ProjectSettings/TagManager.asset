@@ -9,6 +9,7 @@ TagManager:
   - Disc
   - Grammaphone
   - FaderScreen
+  - Panel
   layers:
   - Default
   - TransparentFX

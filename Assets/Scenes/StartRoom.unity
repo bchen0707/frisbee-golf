@@ -148,7 +148,7 @@ PrefabInstance:
     - target: {fileID: 1802393977062214327, guid: a5c50d52d5c25de44b287d32a8551f6a,
         type: 3}
       propertyPath: fadeDuration
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4820892542862800958, guid: a5c50d52d5c25de44b287d32a8551f6a,
         type: 3}
@@ -533,7 +533,7 @@ PrefabInstance:
     - target: {fileID: 3400489610860398401, guid: 474f5fca836488f4490ed92baae1f901,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 39.7
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3400489610860398401, guid: 474f5fca836488f4490ed92baae1f901,
         type: 3}
