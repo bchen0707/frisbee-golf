@@ -9,6 +9,11 @@ TagManager:
   - Disc
   - Grammaphone
   - FaderScreen
+<<<<<<< Updated upstream
+=======
+  - Panel
+  - VOSource
+>>>>>>> Stashed changes
   layers:
   - Default
   - TransparentFX
