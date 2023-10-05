@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class Grammaphone : MonoBehaviour
 {
+    public SceneTransitionManager sceneTM;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,15 +23,14 @@ public class Grammaphone : MonoBehaviour
     {
         if (other.CompareTag("Disc"))
         {
-            Debug.Log("disc hit");
             if (SceneManager.GetActiveScene().name == "StartRoom")
             {
                 Debug.Log("transition to candyroom");
-                CanvasManager.Instance.TransitionToScene(1);
+                sceneTM.GoToScene(1);
             }
             if(SceneManager.GetActiveScene().name == "CandyRoomFinal")
             {
-                CanvasManager.Instance.TransitionToScene(2);
+                sceneTM.GoToScene(2);
             }
 
         }

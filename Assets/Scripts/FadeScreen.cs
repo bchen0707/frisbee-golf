@@ -1,4 +1,4 @@
-using System.Collections;
+    using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -15,11 +15,12 @@ public class FadeScreen : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        rend = GetComponent<Renderer>();
         if (fadeOnStart)
         {
+            Debug.Log("faded");
             FadeIn();
         }
-        rend = GetComponent<Renderer>();
     }
 
     // Update is called once per frame
@@ -39,7 +40,7 @@ public class FadeScreen : MonoBehaviour
     }
     public void Fade(float alphaIn, float alphaOut)
     {
-        StartCoroutine((FadeRoutine(alphaIn, alphaOut)));
+        StartCoroutine(FadeRoutine(alphaIn, alphaOut));
     }
 
     public IEnumerator FadeRoutine(float alphaIn, float alphaOut)

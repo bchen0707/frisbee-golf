@@ -18,17 +18,7 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public void GoToScene(int sceneIndex)
-    {
-        StartCoroutine(GoToSceneRoutine(sceneIndex));
-    }
-    IEnumerator GoToSceneRoutine(int sceneIndex)
-    {
-        fadescreen.FadeOut();
-        yield return new WaitForSeconds(fadescreen.fadeDuration);
-
-        SceneManager.LoadScene(sceneIndex);
-    }
+   
     // Start is called before the first frame update
     void Start()
     {
