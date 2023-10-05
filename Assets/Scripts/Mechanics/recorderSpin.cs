@@ -6,6 +6,7 @@ using UnityEngine;
 public class recorderSpin : MonoBehaviour
 {
     public float rotateSpeed = 10f;
+    public float handleSpeed = 2f;
     public float offset = 1f;
     private bool hasEnteredTriggerZone = false;
     private Transform cubeTransform;
@@ -14,6 +15,7 @@ public class recorderSpin : MonoBehaviour
     private bool hasReachedDesiredOrientation;
 
     [SerializeField] private GameObject grammaphone;
+    [SerializeField] private GameObject handle;
     private float rotationSmoothing = 2f; // Adjust this value for smoother or faster rotation
 
     // Start is called before the first frame update
@@ -48,9 +50,6 @@ public class recorderSpin : MonoBehaviour
             //disable gravity
             GameObject.FindGameObjectWithTag("Disc").GetComponent<Rigidbody>().useGravity = false;
 
-            //rotate disk
-            //transform.Rotate(0f, 0f, rotateSpeed * Time.deltaTime, Space.Self);
-
             if (!hasReachedDesiredOrientation)
             {
                 // Rotate disc towards the target rotation smoothly
@@ -69,6 +68,9 @@ public class recorderSpin : MonoBehaviour
 
                 // Apply angular velocity to rotate around the local z-axis
                 transform.Rotate(Vector3.forward * zRotationVelocity, Space.Self);
+
+                // Rotate the grammaphone handle in the local x-axis
+                handle.transform.Rotate(Vector3.right * handleSpeed, Space.Self);
             }
 
         }
