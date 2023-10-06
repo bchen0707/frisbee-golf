@@ -3571,7 +3571,7 @@ PrefabInstance:
         type: 3}
       propertyPath: panelVO
       value: 
-      objectReference: {fileID: 8300000, guid: 565207373f23c3e438e47d467085ec59, type: 3}
+      objectReference: {fileID: 8300000, guid: f9f86f07ae0664295aad1feba4cba45d, type: 3}
     - target: {fileID: 1575490437062908574, guid: 6000a01719cff99429d6be7a95afb4f3,
         type: 3}
       propertyPath: particleFX
@@ -3770,7 +3770,7 @@ PrefabInstance:
         type: 3}
       propertyPath: panelVO
       value: 
-      objectReference: {fileID: 8300000, guid: ab6c791a32b22264e975587a59d8ba96, type: 3}
+      objectReference: {fileID: 8300000, guid: ed5265b5945fb4ae8b08df023cf261ed, type: 3}
     - target: {fileID: 8156238858072567158, guid: 6000a01719cff99429d6be7a95afb4f3,
         type: 3}
       propertyPath: particleFX
