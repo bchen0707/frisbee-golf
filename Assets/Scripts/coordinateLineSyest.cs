@@ -29,14 +29,37 @@ public class coordinateLineSyest : MonoBehaviour
     private GameObject containerC;
     private GameObject containerD;
 
+    //pulsing code
+    public float _pulseSize = 1.15f;
+    public float _returnSpeed = 5f;
+    private Vector3 _startSize;
+
+    //beat manager code
+    public float _bpm = 136f;
+    public float _steps = 1f;
+
+    private float pulseInterval;
+    private float nextPulseTime;
+
     // Start is called before the first frame update
     void Start()
     {
+        //initialize containers first 
         containerC = new GameObject("containerC");
         containerD = new GameObject("containerD");
 
+        //start size of the blue dots
+        _startSize = containerC.transform.localScale;
+
+        //calculate pulse interval based on BPM
+        pulseInterval = 60f / (_bpm*_steps);
+
+        //Initiate next pulse time
+        nextPulseTime = Time.deltaTime + pulseInterval;
+
         listOfArray = new List<GameObject[,]>();
         List<List<GameObject>> dotComplement = new List<List<GameObject>>();
+
         for (int h = 0; h < HIGHT; h++)
         {
             //create each list (layer)
@@ -56,10 +79,10 @@ public class coordinateLineSyest : MonoBehaviour
 
                     //add each coordinate system object to the array
                     layer[r,c] = go;
-
+                    //blueDotList.Add(go);
 
                     //construct the dots in between
-                    for(int i = 0; i < dotNumber; i++)
+                    for (int i = 0; i < dotNumber; i++)
                     {
                         //dot horizon
                         int gap = distance/(dotNumber+1);
@@ -91,12 +114,14 @@ public class coordinateLineSyest : MonoBehaviour
         //center the container, moving all the pyramids inside
         containerC.transform.position = new Vector2(-COLS*distance/2, -10);
         containerD.transform.position = new Vector2(-COLS*distance/2, -10);
+
     }
 
     // Update is called once per frame
     void Update()
     {
-         //iterate through the array
+
+        //iterate through the array
         for (int h = 0; h < HIGHT; h++)
         {
             GameObject[,] layerCut = listOfArray[h];
@@ -116,9 +141,18 @@ public class coordinateLineSyest : MonoBehaviour
                     Vector3 scale = go.transform.localScale;
                     scale.z = noise * scaleMultiplier;
                     go.transform.localScale = scale;
+
+                    go.transform.localScale = Vector3.Lerp(go.transform.localScale, _startSize, Time.deltaTime * _returnSpeed);
+
+                    if (Time.deltaTime >= nextPulseTime)
+                    {
+                        go.transform.localScale = _startSize * _pulseSize;
+                        nextPulseTime += pulseInterval;
+                    }
+
                 }
             }
         }
-        
     }
+
 }
