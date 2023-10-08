@@ -19,7 +19,6 @@ public class launchFrisbee : MonoBehaviour
 
     bool readyToThrow;
 
-    public XRController rightHand;
     public InputHelpers.Button button;
 
     private void Start()
@@ -33,15 +32,6 @@ public class launchFrisbee : MonoBehaviour
         {
             Throw();
         }
-
-        bool pressed;
-        rightHand.inputDevice.IsPressed(button, out pressed);
-
-        if (pressed)
-        {
-            Throw();
-            Debug.Log("XR throw");
-        }
     }
 
 
@@ -50,15 +40,15 @@ public class launchFrisbee : MonoBehaviour
     {
         readyToThrow = false;
         totalThrows++;
-        Quaternion qb = new Quaternion(0, 0, 0, 1);
+        Quaternion qb = Quaternion.Euler(90, 0, 0);
         GameObject frisbeeObject = Instantiate(frisbee, attackPoint.position, Quaternion.identity);
         Rigidbody frisbeeRb = frisbeeObject.GetComponent<Rigidbody>();
-        //frisbeeRb.rotation = qb;
+        frisbeeRb.rotation = qb;
         frisbeeRb.isKinematic = false;
         // frisbeeRb.useGravity = true;
         Vector3 frisbeeArc = cam.transform.forward;
         RaycastHit hit;
-        if(Physics.Raycast(cam.position, cam.forward, out hit, 50f))
+        if(Physics.Raycast(cam.position, cam.forward, out hit))
         {
             frisbeeArc = (hit.point-attackPoint.position).normalized;
         }

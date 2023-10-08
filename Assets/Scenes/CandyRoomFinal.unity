@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.34164786, g: 0.34186524, b: 0.34171513, a: 1}
+  m_IndirectSpecularColor: {r: 0.34164816, g: 0.34186575, b: 0.3417156, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -469,10 +469,19 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1215751367945583725, guid: f0ef1c91c9c4840c9b2cfaebbd1c8331, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8732631451699810205, guid: f0ef1c91c9c4840c9b2cfaebbd1c8331,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 129412971}
+    - targetCorrespondingSourceObject: {fileID: 8732631451699810205, guid: f0ef1c91c9c4840c9b2cfaebbd1c8331,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 129412970}
   m_SourcePrefab: {fileID: 100100000, guid: f0ef1c91c9c4840c9b2cfaebbd1c8331, type: 3}
 --- !u!114 &129412966 stripped
 MonoBehaviour:
@@ -486,6 +495,57 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b56d9baac1148434ca0149ab27d3f43a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!4 &129412967 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2403400306603330373, guid: f0ef1c91c9c4840c9b2cfaebbd1c8331,
+    type: 3}
+  m_PrefabInstance: {fileID: 129412965}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &129412968 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7473144066862822189, guid: f0ef1c91c9c4840c9b2cfaebbd1c8331,
+    type: 3}
+  m_PrefabInstance: {fileID: 129412965}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &129412969 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8732631451699810205, guid: f0ef1c91c9c4840c9b2cfaebbd1c8331,
+    type: 3}
+  m_PrefabInstance: {fileID: 129412965}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &129412970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 129412969}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cc728722c151a94b91e11aee9e04be0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &129412971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 129412969}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9c9ff40c52ece44ba91d622590fa7b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam: {fileID: 129412967}
+  attackPoint: {fileID: 129412968}
+  frisbee: {fileID: 691619492}
+  totalThrows: 0
+  throwCool: 2
+  throwKey: 323
+  throwForce: 7
+  upwardForce: 0
+  button: 2
 --- !u!1 &143114902 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4069376670244790351, guid: 6000a01719cff99429d6be7a95afb4f3,
@@ -3839,7 +3899,8 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: c8c54e9bb28e14d9388346c672ffbe83, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5270677771413426845, guid: 6000a01719cff99429d6be7a95afb4f3, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
