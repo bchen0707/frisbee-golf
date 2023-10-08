@@ -2884,7 +2884,7 @@ MonoBehaviour:
   _pulseSize: 2
   _returnSpeed: 2
   _bpm: 136
-  _steps: 0.75
+  _steps: 0.5
   _audioSource: {fileID: 2102322216}
 --- !u!82 &2102322216
 AudioSource:
@@ -3704,6 +3704,16 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Panel
       objectReference: {fileID: 0}
+    - target: {fileID: 272552221656058687, guid: 6000a01719cff99429d6be7a95afb4f3,
+        type: 3}
+      propertyPath: _moveSpeed
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 272552221656058687, guid: 6000a01719cff99429d6be7a95afb4f3,
+        type: 3}
+      propertyPath: _moveDistance
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 1367138914547683617, guid: 6000a01719cff99429d6be7a95afb4f3,
         type: 3}
       propertyPath: panelVO
@@ -3777,6 +3787,31 @@ PrefabInstance:
       propertyPath: UncoloredPanel
       value: 
       objectReference: {fileID: 68401810}
+    - target: {fileID: 1722260873564815345, guid: 6000a01719cff99429d6be7a95afb4f3,
+        type: 3}
+      propertyPath: _moveDistance
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 2400032371531774133, guid: 6000a01719cff99429d6be7a95afb4f3,
+        type: 3}
+      propertyPath: _moveSpeed
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2400032371531774133, guid: 6000a01719cff99429d6be7a95afb4f3,
+        type: 3}
+      propertyPath: _moveDistance
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2457447203606295595, guid: 6000a01719cff99429d6be7a95afb4f3,
+        type: 3}
+      propertyPath: _moveSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2457447203606295595, guid: 6000a01719cff99429d6be7a95afb4f3,
+        type: 3}
+      propertyPath: _moveDistance
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 2533262649906797024, guid: 6000a01719cff99429d6be7a95afb4f3,
         type: 3}
       propertyPath: m_Name
@@ -3796,6 +3831,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TagString
       value: Panel
+      objectReference: {fileID: 0}
+    - target: {fileID: 4387213618242604513, guid: 6000a01719cff99429d6be7a95afb4f3,
+        type: 3}
+      propertyPath: _moveSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4387213618242604513, guid: 6000a01719cff99429d6be7a95afb4f3,
+        type: 3}
+      propertyPath: _moveDistance
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 4980579032248543426, guid: 6000a01719cff99429d6be7a95afb4f3,
         type: 3}
@@ -3832,6 +3877,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TagString
       value: Panel
+      objectReference: {fileID: 0}
+    - target: {fileID: 6438453773975681328, guid: 6000a01719cff99429d6be7a95afb4f3,
+        type: 3}
+      propertyPath: _moveSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6438453773975681328, guid: 6000a01719cff99429d6be7a95afb4f3,
+        type: 3}
+      propertyPath: _moveDistance
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6655770735232479755, guid: 6000a01719cff99429d6be7a95afb4f3,
         type: 3}
@@ -3997,6 +4052,11 @@ PrefabInstance:
       propertyPath: UncoloredPanel
       value: 
       objectReference: {fileID: 268937158}
+    - target: {fileID: 9012642963620056824, guid: 6000a01719cff99429d6be7a95afb4f3,
+        type: 3}
+      propertyPath: _moveSpeed
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 9078656358569902899, guid: 6000a01719cff99429d6be7a95afb4f3,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
