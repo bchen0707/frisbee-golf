@@ -14,6 +14,8 @@ public class basicGoal : MonoBehaviour
     
     public bool hit;
 
+    [SerializeField] private AudioClip panelVO;
+
     public void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Disc") && (this.CompareTag("Panel")))
@@ -34,6 +36,10 @@ public class basicGoal : MonoBehaviour
         // switch out Panel prefab to Colored
         UncoloredPanel.SetActive(false);
         ColoredPanel.SetActive(true);
+        //dialogue VO
+        SoundManager.instance.PlayPanelVO(panelVO);
+
+        GetComponent<Collider>().enabled = false;
 
         // this.child."name".gameobject.setactive = true or smth LOL
         //DialogueManager.DisplayDialogue(dialogue); -> takes the string dialogue and pops it into the respective UI area

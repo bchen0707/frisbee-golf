@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.34164816, g: 0.34186575, b: 0.3417156, a: 1}
+  m_IndirectSpecularColor: {r: 0.34164786, g: 0.34186524, b: 0.34171513, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -392,10 +392,8 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 837587368}
-  - {fileID: 1802525593}
   - {fileID: 1639435115}
   - {fileID: 1835013610}
-  - {fileID: 2089169255}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &129412965
@@ -2134,7 +2132,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 128227963}
+    m_TransformParent: {fileID: 837587368}
     m_Modifications:
     - target: {fileID: 1110738706028840535, guid: f7d5ad5f367ff2049bba195888dec121,
         type: 3}
@@ -2817,6 +2815,10 @@ MonoBehaviour:
   dotNumber: 20
   noiseMultiplier: 0.1
   scaleMultiplier: 2
+  _pulseSize: 1.15
+  _returnSpeed: 5
+  _bpm: 136
+  _steps: 1
 --- !u!4 &2126331903 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 51b2473cb3d19405c90ee19cc0505cce,
@@ -3073,7 +3075,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 128227963}
+    m_TransformParent: {fileID: 837587368}
     m_Modifications:
     - target: {fileID: 1030992256843573284, guid: dfd5e6a1b81a2da4284935cac8348058,
         type: 3}
@@ -3283,7 +3285,15 @@ PrefabInstance:
       objectReference: {fileID: 2089169254}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 3039563251760982151, guid: 24faf1c098f3be547ba7e9e49c362a4a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1802525593}
+    - targetCorrespondingSourceObject: {fileID: 3039563251760982151, guid: 24faf1c098f3be547ba7e9e49c362a4a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2089169255}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 24faf1c098f3be547ba7e9e49c362a4a, type: 3}
 --- !u!1001 &5330752541195915691
@@ -3533,6 +3543,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1367138914547683617, guid: 6000a01719cff99429d6be7a95afb4f3,
         type: 3}
+      propertyPath: panelVO
+      value: 
+      objectReference: {fileID: 8300000, guid: 565207373f23c3e438e47d467085ec59, type: 3}
+    - target: {fileID: 1367138914547683617, guid: 6000a01719cff99429d6be7a95afb4f3,
+        type: 3}
       propertyPath: particleFX
       value: 
       objectReference: {fileID: 19870324, guid: 3ace2ed310a26014f8f3f55b0be11c1d,
@@ -3552,6 +3567,11 @@ PrefabInstance:
       propertyPath: UncoloredPanel
       value: 
       objectReference: {fileID: 156693757}
+    - target: {fileID: 1575490437062908574, guid: 6000a01719cff99429d6be7a95afb4f3,
+        type: 3}
+      propertyPath: panelVO
+      value: 
+      objectReference: {fileID: 8300000, guid: f9f86f07ae0664295aad1feba4cba45d, type: 3}
     - target: {fileID: 1575490437062908574, guid: 6000a01719cff99429d6be7a95afb4f3,
         type: 3}
       propertyPath: particleFX
@@ -3746,6 +3766,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Panel
       objectReference: {fileID: 0}
+    - target: {fileID: 8156238858072567158, guid: 6000a01719cff99429d6be7a95afb4f3,
+        type: 3}
+      propertyPath: panelVO
+      value: 
+      objectReference: {fileID: 8300000, guid: ed5265b5945fb4ae8b08df023cf261ed, type: 3}
     - target: {fileID: 8156238858072567158, guid: 6000a01719cff99429d6be7a95afb4f3,
         type: 3}
       propertyPath: particleFX

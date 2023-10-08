@@ -2539,7 +2539,6 @@ MonoBehaviour:
   _bpm: 136
   _steps: 0.75
   _audioSource: {fileID: 1616091625}
---- !u!114 &1616091622
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
