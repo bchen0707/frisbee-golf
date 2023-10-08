@@ -2534,11 +2534,11 @@ MonoBehaviour:
   dotNumber: 20
   noiseMultiplier: 0.1
   scaleMultiplier: 2
-  _pulseSize: 20
-  _returnSpeed: 5
+  _pulseSize: 3
+  _returnSpeed: 2
   _bpm: 136
-  _steps: 0.5
---- !u!114 &1616091622
+  _steps: 0.75
+  _audioSource: {fileID: 1616091625}
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

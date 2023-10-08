@@ -36,10 +36,13 @@ public class coordinateLineSyest : MonoBehaviour
 
     //beat manager code
     public float _bpm = 136f;
-    public float _steps = 1f;
+    public float _steps = 0.5f;
 
     private float pulseInterval;
     private float nextPulseTime;
+    private Vector3 targetSize;
+    private float sampledTime;
+    [SerializeField] private AudioSource _audioSource;
 
     // Start is called before the first frame update
     void Start()
@@ -54,8 +57,10 @@ public class coordinateLineSyest : MonoBehaviour
         //calculate pulse interval based on BPM
         pulseInterval = 60f / (_bpm*_steps);
 
+        sampledTime = (_audioSource.timeSamples / (_audioSource.clip.frequency * pulseInterval));
+
         //Initiate next pulse time
-        nextPulseTime = Time.deltaTime + pulseInterval;
+        nextPulseTime = Time.deltaTime + sampledTime;
 
         listOfArray = new List<GameObject[,]>();
         List<List<GameObject>> dotComplement = new List<List<GameObject>>();
@@ -115,12 +120,55 @@ public class coordinateLineSyest : MonoBehaviour
         containerC.transform.position = new Vector2(-COLS*distance/2, -10);
         containerD.transform.position = new Vector2(-COLS*distance/2, -10);
 
+        StartCoroutine(PulseAllObjects());
+
+    }
+
+    // Coroutine to pulse a GameObject
+    IEnumerator PulseGameObject(GameObject go)
+    {
+        float elapsedTime = 0f;
+        Vector3 targetSize = _startSize * _pulseSize;
+        go.transform.localScale = targetSize;
+
+        while (elapsedTime < pulseInterval)
+        {
+            go.transform.localScale = Vector3.Lerp(targetSize, _startSize, elapsedTime / pulseInterval);
+            elapsedTime += Time.deltaTime;
+            yield return null;
+        }
+
+        yield return null;
+    }
+
+    // Coroutine to pulse all objects in the array
+    IEnumerator PulseAllObjects()
+    {
+        while (true)
+        {
+            for (int h = 0; h < HIGHT; h++)
+            {
+                GameObject[,] layerCut = listOfArray[h];
+                for (int r = 0; r < ROWS; r++)
+                {
+                    for (int c = 0; c < COLS; c++)
+                    {
+                        GameObject go = layerCut[r, c];
+
+                        // Start the coroutine to pulse the current object
+                        StartCoroutine(PulseGameObject(go));
+                    }
+                }
+            }
+
+            // Wait for the next pulse interval before pulsing again
+            yield return new WaitForSeconds(pulseInterval);
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
-
         //iterate through the array
         for (int h = 0; h < HIGHT; h++)
         {
@@ -142,17 +190,10 @@ public class coordinateLineSyest : MonoBehaviour
                     scale.z = noise * scaleMultiplier;
                     go.transform.localScale = scale;
 
-                    go.transform.localScale = Vector3.Lerp(go.transform.localScale, _startSize, Time.deltaTime * _returnSpeed);
-
-                    if (Time.deltaTime >= nextPulseTime)
-                    {
-                        go.transform.localScale = _startSize * _pulseSize;
-                        nextPulseTime += pulseInterval;
-                    }
-
                 }
             }
         }
     }
+
 
 }
