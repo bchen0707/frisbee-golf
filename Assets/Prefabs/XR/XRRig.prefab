@@ -61,7 +61,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7902108152800513368}
-  - component: {fileID: 2162203780196677057}
   - component: {fileID: 6829092993744932047}
   - component: {fileID: 9077278111472810057}
   m_Layer: 0
@@ -92,23 +91,6 @@ Transform:
   - {fileID: 2403400306603330373}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2162203780196677057
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1481491370625790466}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a2483b9bd782f9449a5972b61b7d51a9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_CameraFloorOffsetObject: {fileID: 0}
-  m_RequestedTrackingMode: 0
-  m_TrackingOriginMode: 1
-  m_TrackingSpace: 0
-  m_CameraYOffset: 1.36144
 --- !u!114 &6829092993744932047
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -124,8 +106,8 @@ MonoBehaviour:
   m_Camera: {fileID: 2166021003893920049}
   m_OriginBaseGameObject: {fileID: 1481491370625790466}
   m_CameraFloorOffsetObject: {fileID: 0}
-  m_RequestedTrackingOriginMode: 2
-  m_CameraYOffset: 1.1176
+  m_RequestedTrackingOriginMode: 1
+  m_CameraYOffset: 7
 --- !u!114 &9077278111472810057
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -812,6 +794,8 @@ GameObject:
   - component: {fileID: 5273881687011388847}
   - component: {fileID: 5127293600996410853}
   - component: {fileID: 2025995018196154870}
+  - component: {fileID: 6131203339664992369}
+  - component: {fileID: 7094755834665286861}
   m_Layer: 0
   m_Name: Right Hand
   m_TagString: Untagged
@@ -1190,6 +1174,39 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.099172935
   m_Center: {x: -0.06024521, y: 0, z: 0.15072344}
+--- !u!114 &6131203339664992369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8732631451699810205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9c9ff40c52ece44ba91d622590fa7b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam: {fileID: 2403400306603330373}
+  attackPoint: {fileID: 7473144066862822189}
+  frisbee: {fileID: 0}
+  totalThrows: 0
+  throwCool: 20
+  throwKey: 323
+  throwForce: 4
+  upwardForce: 0
+  button: 2
+--- !u!114 &7094755834665286861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8732631451699810205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cc728722c151a94b91e11aee9e04be0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &179814758187312674
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1258,7 +1275,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: FaderScreen
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1342604837127707215, guid: a5c50d52d5c25de44b287d32a8551f6a, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
