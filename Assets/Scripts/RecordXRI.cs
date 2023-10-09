@@ -23,11 +23,4 @@ public class RecordXRI : MonoBehaviour
     {
         this.GetComponent<MeshRenderer>().materials = materials;
     }
-
-    public void launchDisc()
-    {
-        GameObject spawnedDisc = Instantiate(this.gameObject);
-        spawnedDisc.transform.position = launchPosition.position;
-        spawnedDisc.GetComponent<Rigidbody>().velocity = launchPosition.forward * launchSpeed;
-    }
 }

@@ -28,7 +28,7 @@ public class launchFrisbee : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(throwKey) && readyToThrow)
+        if ((Input.GetKeyDown(throwKey)) && readyToThrow)
         {
             Throw();
         }
@@ -36,7 +36,7 @@ public class launchFrisbee : MonoBehaviour
 
 
 
-    private void Throw()
+    public void Throw()
     {
         readyToThrow = false;
         totalThrows++;

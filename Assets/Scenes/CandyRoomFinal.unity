@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.34164786, g: 0.34186524, b: 0.34171513, a: 1}
+  m_IndirectSpecularColor: {r: 0.34164816, g: 0.34186575, b: 0.3417156, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -419,6 +419,16 @@ PrefabInstance:
       propertyPath: frisbee
       value: 
       objectReference: {fileID: 691619492}
+    - target: {fileID: 6829092993744932047, guid: f0ef1c91c9c4840c9b2cfaebbd1c8331,
+        type: 3}
+      propertyPath: m_CameraYOffset
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6829092993744932047, guid: f0ef1c91c9c4840c9b2cfaebbd1c8331,
+        type: 3}
+      propertyPath: m_RequestedTrackingOriginMode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7902108152800513368, guid: f0ef1c91c9c4840c9b2cfaebbd1c8331,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -427,12 +437,12 @@ PrefabInstance:
     - target: {fileID: 7902108152800513368, guid: f0ef1c91c9c4840c9b2cfaebbd1c8331,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 9.015106
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7902108152800513368, guid: f0ef1c91c9c4840c9b2cfaebbd1c8331,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 52.633263
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 7902108152800513368, guid: f0ef1c91c9c4840c9b2cfaebbd1c8331,
         type: 3}
@@ -471,6 +481,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 1215751367945583725, guid: f0ef1c91c9c4840c9b2cfaebbd1c8331, type: 3}
+    - {fileID: 2162203780196677057, guid: f0ef1c91c9c4840c9b2cfaebbd1c8331, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -541,9 +552,9 @@ MonoBehaviour:
   attackPoint: {fileID: 129412968}
   frisbee: {fileID: 691619492}
   totalThrows: 0
-  throwCool: 2
+  throwCool: 20
   throwKey: 323
-  throwForce: 7
+  throwForce: 4
   upwardForce: 0
   button: 2
 --- !u!1 &143114902 stripped
@@ -1182,18 +1193,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3400489610860398401, guid: 474f5fca836488f4490ed92baae1f901,
         type: 3}
+      propertyPath: m_LocalScale.x
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3400489610860398401, guid: 474f5fca836488f4490ed92baae1f901,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3400489610860398401, guid: 474f5fca836488f4490ed92baae1f901,
+        type: 3}
       propertyPath: m_LocalPosition.x
-      value: 53.999996
+      value: 50.51
       objectReference: {fileID: 0}
     - target: {fileID: 3400489610860398401, guid: 474f5fca836488f4490ed92baae1f901,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5
+      value: 6.61
       objectReference: {fileID: 0}
     - target: {fileID: 3400489610860398401, guid: 474f5fca836488f4490ed92baae1f901,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 47
+      value: 51.11
       objectReference: {fileID: 0}
     - target: {fileID: 3400489610860398401, guid: 474f5fca836488f4490ed92baae1f901,
         type: 3}
@@ -1235,6 +1256,21 @@ PrefabInstance:
       propertyPath: launchPosition
       value: 
       objectReference: {fileID: 1544036223}
+    - target: {fileID: 8632725498159387579, guid: 474f5fca836488f4490ed92baae1f901,
+        type: 3}
+      propertyPath: m_Activated.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 129412971}
+    - target: {fileID: 8632725498159387579, guid: 474f5fca836488f4490ed92baae1f901,
+        type: 3}
+      propertyPath: m_Activated.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Throw
+      objectReference: {fileID: 0}
+    - target: {fileID: 8632725498159387579, guid: 474f5fca836488f4490ed92baae1f901,
+        type: 3}
+      propertyPath: m_Activated.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: launchFrisbee, Assembly-CSharp
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
