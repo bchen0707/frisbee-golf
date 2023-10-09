@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.34164816, g: 0.34186575, b: 0.3417156, a: 1}
+  m_IndirectSpecularColor: {r: 0.34164786, g: 0.34186524, b: 0.34171513, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3967,6 +3967,21 @@ PrefabInstance:
       propertyPath: UncoloredPanel
       value: 
       objectReference: {fileID: 1941450237}
+    - target: {fileID: 8208235742077039230, guid: 6000a01719cff99429d6be7a95afb4f3,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 8208235742077039230, guid: 6000a01719cff99429d6be7a95afb4f3,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8208235742077039230, guid: 6000a01719cff99429d6be7a95afb4f3,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 40
+      objectReference: {fileID: 0}
     - target: {fileID: 8529300674892691487, guid: 6000a01719cff99429d6be7a95afb4f3,
         type: 3}
       propertyPath: particleFX
