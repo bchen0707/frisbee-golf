@@ -11,7 +11,8 @@ public class basicGoal : MonoBehaviour
     [SerializeField] private SpriteRenderer dialogueBubble;
     public GameObject UncoloredPanel;
     public GameObject ColoredPanel;
-    
+    public GameObject[] musicCubes;
+
     public bool hit;
 
     [SerializeField] private AudioClip panelVO;
@@ -22,6 +23,7 @@ public class basicGoal : MonoBehaviour
         {
             GameManager.Instance.panelHitCount += 1;
             goalHitEvent();
+            this.GetComponent<Collider>().enabled = false;
         }
     }
 
@@ -44,6 +46,14 @@ public class basicGoal : MonoBehaviour
         // this.child."name".gameobject.setactive = true or smth LOL
         //DialogueManager.DisplayDialogue(dialogue); -> takes the string dialogue and pops it into the respective UI area
         //Destroy(gameObject);
+
+        if (musicCubes != null)
+        {
+            foreach (GameObject musicCube in musicCubes)
+            {
+                musicCube.active = true;
+            }
+        }
     }
     
     // Start is called before the first frame update

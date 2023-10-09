@@ -23,16 +23,27 @@ public class Grammaphone : MonoBehaviour
     {
         if (other.CompareTag("Disc"))
         {
-            if (SceneManager.GetActiveScene().name == "StartRoom")
+            if (SceneManager.GetActiveScene().name == "StartRoomThrow" || SceneManager.GetActiveScene().name == "StartRoom")
             {
-                Debug.Log("transition to candyroom");
-                sceneTM.GoToScene(1);
+                Debug.Log("invoke");
+                Invoke(nameof(GoToCandyRoom), 3.0f);
             }
             if(SceneManager.GetActiveScene().name == "CandyRoomFinal")
             {
-                sceneTM.GoToScene(2);
+                Invoke(nameof(GoToCredits), 3.0f);
             }
 
         }
+    }
+
+    public void GoToCandyRoom()
+    {
+        sceneTM.GoToScene(1);
+        Debug.Log("go candy");
+    }
+
+    public void GoToCredits()
+    {
+        sceneTM.GoToScene(2);
     }
 }
