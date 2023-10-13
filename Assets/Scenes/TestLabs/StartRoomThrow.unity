@@ -828,6 +828,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6448621474848439139, guid: 474f5fca836488f4490ed92baae1f901,
+        type: 3}
+      propertyPath: launchPosition
+      value: 
+      objectReference: {fileID: 829067411}
     - target: {fileID: 7805935146123994327, guid: 474f5fca836488f4490ed92baae1f901,
         type: 3}
       propertyPath: m_UseGravity
@@ -848,6 +853,12 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 2628738669033151995, guid: 474f5fca836488f4490ed92baae1f901,
     type: 3}
   m_PrefabInstance: {fileID: 789574211}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &829067411 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6146518934590135092, guid: f0ef1c91c9c4840c9b2cfaebbd1c8331,
+    type: 3}
+  m_PrefabInstance: {fileID: 243315770}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &958207247
 PrefabInstance:
@@ -1047,7 +1058,7 @@ PrefabInstance:
     - target: {fileID: 8926460010832642627, guid: b608d259d5f995a4f9c8d41566d93989,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.14
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8926460010832642627, guid: b608d259d5f995a4f9c8d41566d93989,
         type: 3}
