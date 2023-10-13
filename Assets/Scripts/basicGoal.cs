@@ -23,7 +23,7 @@ public class basicGoal : MonoBehaviour
         {
             GameManager.Instance.panelHitCount += 1;
             goalHitEvent();
-            this.GetComponent<Collider>().enabled = false;
+            
         }
     }
 
@@ -41,7 +41,7 @@ public class basicGoal : MonoBehaviour
         //dialogue VO
         SoundManager.instance.PlayPanelVO(panelVO);
 
-        GetComponent<Collider>().enabled = false;
+        this.GetComponent<BoxCollider>().enabled = false;
 
         // this.child."name".gameobject.setactive = true or smth LOL
         //DialogueManager.DisplayDialogue(dialogue); -> takes the string dialogue and pops it into the respective UI area
