@@ -572,6 +572,16 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7065406717779397684, guid: cfd6f03d66c7b904f9dcc405abe8c41e,
+        type: 3}
+      propertyPath: m_Name
+      value: Handle
+      objectReference: {fileID: 0}
+    - target: {fileID: 7065406717779397684, guid: cfd6f03d66c7b904f9dcc405abe8c41e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7880431763742528304, guid: cfd6f03d66c7b904f9dcc405abe8c41e,
         type: 3}
       propertyPath: sceneTM
@@ -582,6 +592,12 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cfd6f03d66c7b904f9dcc405abe8c41e, type: 3}
+--- !u!1 &396351237 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7065406717779397684, guid: cfd6f03d66c7b904f9dcc405abe8c41e,
+    type: 3}
+  m_PrefabInstance: {fileID: 396351236}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &429157074
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -894,6 +910,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2009665246237095973, guid: 474f5fca836488f4490ed92baae1f901,
+        type: 3}
+      propertyPath: handle
+      value: 
+      objectReference: {fileID: 396351237}
     - target: {fileID: 2009665246237095973, guid: 474f5fca836488f4490ed92baae1f901,
         type: 3}
       propertyPath: grammaphone
