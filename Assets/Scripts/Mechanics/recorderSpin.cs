@@ -9,6 +9,8 @@ public class recorderSpin : MonoBehaviour
     public float handleSpeed = 2f;
     public float offset = 1f;
     private bool hasEnteredTriggerZone = false;
+    private bool hitGround = false;
+
     private Transform cubeTransform;
     private Vector3 newLocation;
     private Quaternion desiredOrientation;
@@ -16,7 +18,11 @@ public class recorderSpin : MonoBehaviour
 
     [SerializeField] private GameObject grammaphone;
     [SerializeField] private GameObject handle;
+    [SerializeField] private GameObject originalDiscPrefab;
     private float rotationSmoothing = 2f; // Adjust this value for smoother or faster rotation
+
+    private Vector3 originalDiscSpawnPosition;
+    private Quaternion originalDiscRotation;
 
     // Start is called before the first frame update
     void Start()
@@ -30,15 +36,25 @@ public class recorderSpin : MonoBehaviour
         // Create a Quaternion from the desired Euler angles.
         desiredOrientation = Quaternion.Euler(desiredRotationEulerAngles);
 
+        // Original Disc Spawn Location
+        originalDiscSpawnPosition = transform.position;
+        originalDiscRotation = transform.rotation;
+
     }
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("TriggerZone") && hasEnteredTriggerZone == false)
+        if (other.CompareTag("TriggerZone") && !hasEnteredTriggerZone)
         {
             hasEnteredTriggerZone = true;
         }
+        if (other.CompareTag("Ground") && !hitGround)
+        {
+            Debug.Log("here???");
+            hitGround = true;
+        }
     }
+
 
     void Update()
     {
@@ -74,5 +90,26 @@ public class recorderSpin : MonoBehaviour
             }
 
         }
+
+        else if (hitGround)
+        {
+            // spawn disc in original position 
+            spawnNewDisc();
+        }
     }
+
+    void spawnNewDisc()
+    {
+        hitGround = false;
+        Debug.Log("here");
+
+        // Instantiate a new disc GameObject
+        GameObject newDisc = Instantiate(originalDiscPrefab, originalDiscSpawnPosition, Quaternion.identity);
+
+        // Enable gravity for the new disc
+        newDisc.GetComponent<Rigidbody>().useGravity = true;
+        newDisc.transform.rotation = originalDiscRotation;
+    }
+
+
 }

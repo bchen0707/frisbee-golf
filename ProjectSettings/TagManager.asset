@@ -10,6 +10,8 @@ TagManager:
   - Grammaphone
   - FaderScreen
   - Panel
+  - Ground
+  - Table
   layers:
   - Default
   - TransparentFX
