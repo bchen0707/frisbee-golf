@@ -7,17 +7,6 @@ using UnityEngine.SceneManagement;
 public class Grammaphone : MonoBehaviour
 {
     public SceneTransitionManager sceneTM;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
     private void OnTriggerEnter(Collider other)
     {
@@ -26,11 +15,11 @@ public class Grammaphone : MonoBehaviour
             if (SceneManager.GetActiveScene().name == "StartRoomThrow" || SceneManager.GetActiveScene().name == "StartRoom")
             {
                 Debug.Log("invoke");
-                Invoke(nameof(GoToCandyRoom), 3.0f);
+                Invoke(nameof(GoToCandyRoom), 3.5f);
             }
             if(SceneManager.GetActiveScene().name == "CandyRoomFinal")
             {
-                Invoke(nameof(GoToCredits), 3.0f);
+                Invoke(nameof(GoToCredits), 4.0f);
             }
 
         }

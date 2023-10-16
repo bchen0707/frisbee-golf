@@ -3,13 +3,14 @@ using System.Collections.Generic;
 using Unity.XR.CoreUtils;
 using UnityEngine;
 
+
 public class recorderSpin : MonoBehaviour
 {
     public float rotateSpeed = 10f;
     public float handleSpeed = 2f;
     public float offset = 1f;
     private bool hasEnteredTriggerZone = false;
-    private bool hitGround = false;
+   // private bool hitGround = false;
 
     private Transform cubeTransform;
     private Vector3 newLocation;
@@ -48,11 +49,10 @@ public class recorderSpin : MonoBehaviour
         {
             hasEnteredTriggerZone = true;
         }
-        if (other.CompareTag("Ground") && !hitGround)
-        {
-            Debug.Log("here???");
-            hitGround = true;
-        }
+        //if ((other.CompareTag("Ground") && !hitGround) || (other.CompareTag("Panel") && !hitGround))
+        //{
+        //    hitGround = true;
+        //}
     }
 
 
@@ -91,17 +91,17 @@ public class recorderSpin : MonoBehaviour
 
         }
 
-        else if (hitGround)
-        {
-            // spawn disc in original position 
-            spawnNewDisc();
-        }
+        //else if (hitGround)
+        //{
+        //    // spawn disc in original position 
+        //    spawnNewDisc();
+        //}
     }
 
-    void spawnNewDisc()
+    public void spawnNewDisc()
     {
-        hitGround = false;
-        Debug.Log("here");
+        //hitGround = false;
+        //Debug.Log("here");
 
         // Instantiate a new disc GameObject
         GameObject newDisc = Instantiate(originalDiscPrefab, originalDiscSpawnPosition, Quaternion.identity);

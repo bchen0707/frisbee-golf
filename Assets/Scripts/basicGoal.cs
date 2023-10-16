@@ -6,6 +6,7 @@ using UnityEngine;
 public class basicGoal : MonoBehaviour
 {
     [SerializeField] private AudioSource audioSource;
+    [SerializeField] private AudioSource hitSFX;
     [SerializeField] private string dialogue;
     [SerializeField] private ParticleSystem particleFX;
     [SerializeField] private SpriteRenderer dialogueBubble;
@@ -31,6 +32,8 @@ public class basicGoal : MonoBehaviour
     {
         // audio
         audioSource.Play();
+        // hit sfx
+        hitSFX.Play();
         // visual fx
         particleFX.Play();
         // dialogue
@@ -56,15 +59,4 @@ public class basicGoal : MonoBehaviour
         }
     }
     
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
