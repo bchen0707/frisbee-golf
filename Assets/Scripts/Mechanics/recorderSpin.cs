@@ -10,7 +10,6 @@ public class recorderSpin : MonoBehaviour
     public float handleSpeed = 2f;
     public float offset = 1f;
     private bool hasEnteredTriggerZone = false;
-   // private bool hitGround = false;
 
     private Transform cubeTransform;
     private Vector3 newLocation;
@@ -20,10 +19,14 @@ public class recorderSpin : MonoBehaviour
     [SerializeField] private GameObject grammaphone;
     [SerializeField] private GameObject handle;
     [SerializeField] private GameObject originalDiscPrefab;
+    [SerializeField] private AudioSource turntableFriction;
     private float rotationSmoothing = 2f; // Adjust this value for smoother or faster rotation
 
     private Vector3 originalDiscSpawnPosition;
     private Quaternion originalDiscRotation;
+
+    private int panelCount;
+    private bool countReached;
 
     // Start is called before the first frame update
     void Start()
@@ -41,6 +44,10 @@ public class recorderSpin : MonoBehaviour
         originalDiscSpawnPosition = transform.position;
         originalDiscRotation = transform.rotation;
 
+        //initialize panel count
+        panelCount = 0;
+        countReached = false;
+
     }
 
     void OnTriggerEnter(Collider other)
@@ -49,10 +56,10 @@ public class recorderSpin : MonoBehaviour
         {
             hasEnteredTriggerZone = true;
         }
-        //if ((other.CompareTag("Ground") && !hitGround) || (other.CompareTag("Panel") && !hitGround))
-        //{
-        //    hitGround = true;
-        //}
+        if (other.CompareTag("Panel"))
+        {
+            panelCount += 1;
+        }
     }
 
 
@@ -85,24 +92,25 @@ public class recorderSpin : MonoBehaviour
                 // Apply angular velocity to rotate around the local z-axis
                 transform.Rotate(Vector3.forward * zRotationVelocity, Space.Self);
 
+                // Play turntable rotating sound
+                turntableFriction.Play();
+
                 // Rotate the grammaphone handle in the local x-axis
                 handle.transform.Rotate(Vector3.right * handleSpeed, Space.Self);
             }
 
         }
 
-        //else if (hitGround)
-        //{
-        //    // spawn disc in original position 
-        //    spawnNewDisc();
-        //}
+        if (panelCount == 8 && countReached == false)
+        {
+            grammaphone.SetActive(true);
+            countReached = true;
+        }
+
     }
 
     public void spawnNewDisc()
     {
-        //hitGround = false;
-        //Debug.Log("here");
-
         // Instantiate a new disc GameObject
         GameObject newDisc = Instantiate(originalDiscPrefab, originalDiscSpawnPosition, Quaternion.identity);
 
@@ -110,6 +118,5 @@ public class recorderSpin : MonoBehaviour
         newDisc.GetComponent<Rigidbody>().useGravity = true;
         newDisc.transform.rotation = originalDiscRotation;
     }
-
 
 }
