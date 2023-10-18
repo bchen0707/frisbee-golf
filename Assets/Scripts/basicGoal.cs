@@ -2,17 +2,20 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class basicGoal : MonoBehaviour
 {
     [SerializeField] private AudioSource audioSource;
     [SerializeField] private AudioSource hitSFX;
-    [SerializeField] private string dialogue;
+    [SerializeField] private GameObject dialogue;
     [SerializeField] private ParticleSystem particleFX;
     [SerializeField] private SpriteRenderer dialogueBubble;
     public GameObject UncoloredPanel;
     public GameObject ColoredPanel;
     public GameObject[] musicCubes;
+
+    public float delayInSeconds = 8.0f;
 
     public bool hit;
 
@@ -37,7 +40,8 @@ public class basicGoal : MonoBehaviour
         // visual fx
         particleFX.Play();
         // dialogue
-        Debug.Log("dialogue");
+        dialogue.SetActive(true);
+        StartCoroutine(DisableObjectAfterDelay());
         // switch out Panel prefab to Colored
         UncoloredPanel.SetActive(false);
         ColoredPanel.SetActive(true);
@@ -50,13 +54,24 @@ public class basicGoal : MonoBehaviour
         //DialogueManager.DisplayDialogue(dialogue); -> takes the string dialogue and pops it into the respective UI area
         //Destroy(gameObject);
 
-        if (musicCubes != null)
+        //if (musicCubes != null)
+        //{
+        //    foreach (GameObject musicCube in musicCubes)
+        //    {
+        //        musicCube.active = true;
+        //    }
+        //}
+    }
+
+    IEnumerator DisableObjectAfterDelay()
+    {
+        yield return new WaitForSeconds(delayInSeconds);
+
+        // Disable the GameObject after the specified delay
+        if (dialogue != null)
         {
-            foreach (GameObject musicCube in musicCubes)
-            {
-                musicCube.active = true;
-            }
+            dialogue.SetActive(false);
         }
     }
-    
+
 }
