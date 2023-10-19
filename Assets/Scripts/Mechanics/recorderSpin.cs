@@ -103,6 +103,7 @@ public class recorderSpin : MonoBehaviour
 
         if (panelCount == 8 && countReached == false)
         {
+            Debug.Log("here?");
             grammaphone.SetActive(true);
             countReached = true;
         }
