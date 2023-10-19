@@ -23,9 +23,9 @@ public class basicGoal : MonoBehaviour
 
     public void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Disc") && (this.CompareTag("Panel")))
+        if (other.CompareTag("Disc") && this.CompareTag("Panel"))
         {
-            GameManager.Instance.panelHitCount += 1;
+            //GameManager.Instance.panelHitCount += 1;
             goalHitEvent();
             
         }
@@ -49,18 +49,6 @@ public class basicGoal : MonoBehaviour
         SoundManager.instance.PlayPanelVO(panelVO);
 
         this.GetComponent<BoxCollider>().enabled = false;
-
-        // this.child."name".gameobject.setactive = true or smth LOL
-        //DialogueManager.DisplayDialogue(dialogue); -> takes the string dialogue and pops it into the respective UI area
-        //Destroy(gameObject);
-
-        //if (musicCubes != null)
-        //{
-        //    foreach (GameObject musicCube in musicCubes)
-        //    {
-        //        musicCube.active = true;
-        //    }
-        //}
     }
 
     IEnumerator DisableObjectAfterDelay()

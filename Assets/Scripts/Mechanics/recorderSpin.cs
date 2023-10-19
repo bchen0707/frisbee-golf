@@ -20,13 +20,14 @@ public class recorderSpin : MonoBehaviour
     [SerializeField] private GameObject handle;
     [SerializeField] private GameObject originalDiscPrefab;
     [SerializeField] private AudioSource turntableFriction;
+    private GameObject currentDisc;
     private float rotationSmoothing = 2f; // Adjust this value for smoother or faster rotation
 
     private Vector3 originalDiscSpawnPosition;
     private Quaternion originalDiscRotation;
 
-    private int panelCount;
-    private bool countReached;
+    //private int panelCount = 0;
+    private bool countReached = false;
 
     // Start is called before the first frame update
     void Start()
@@ -44,10 +45,6 @@ public class recorderSpin : MonoBehaviour
         originalDiscSpawnPosition = transform.position;
         originalDiscRotation = transform.rotation;
 
-        //initialize panel count
-        panelCount = 0;
-        countReached = false;
-
     }
 
     void OnTriggerEnter(Collider other)
@@ -58,7 +55,9 @@ public class recorderSpin : MonoBehaviour
         }
         if (other.CompareTag("Panel"))
         {
-            panelCount += 1;
+            //panelCount += 1;
+            GameManager.Instance.panelHitCount += 1;
+            Debug.Log(GameManager.Instance.panelHitCount);
         }
     }
 
@@ -101,9 +100,8 @@ public class recorderSpin : MonoBehaviour
 
         }
 
-        if (panelCount == 8 && countReached == false)
+        if (GameManager.Instance.panelHitCount == 8 && countReached == false)
         {
-            Debug.Log("here?");
             grammaphone.SetActive(true);
             countReached = true;
         }
@@ -113,11 +111,11 @@ public class recorderSpin : MonoBehaviour
     public void spawnNewDisc()
     {
         // Instantiate a new disc GameObject
-        GameObject newDisc = Instantiate(originalDiscPrefab, originalDiscSpawnPosition, Quaternion.identity);
+        currentDisc = Instantiate(originalDiscPrefab, originalDiscSpawnPosition, Quaternion.identity);
 
         // Enable gravity for the new disc
-        newDisc.GetComponent<Rigidbody>().useGravity = true;
-        newDisc.transform.rotation = originalDiscRotation;
+        currentDisc.GetComponent<Rigidbody>().useGravity = true;
+        currentDisc.transform.rotation = originalDiscRotation;
     }
 
 }
