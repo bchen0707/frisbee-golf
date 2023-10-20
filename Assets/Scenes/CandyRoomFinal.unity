@@ -1264,7 +1264,7 @@ PrefabInstance:
     - target: {fileID: 4583663738752705007, guid: cfd6f03d66c7b904f9dcc405abe8c41e,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5262871281632144985, guid: cfd6f03d66c7b904f9dcc405abe8c41e,
         type: 3}
@@ -5625,7 +5625,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2102322213}
   - component: {fileID: 2102322212}
-  - component: {fileID: 2102322214}
   - component: {fileID: 2102322215}
   - component: {fileID: 2102322216}
   m_Layer: 0
@@ -5671,29 +5670,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2102322214
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2102322211}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 41664ed6f574848e3835ff4dfdfdd4df, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  prefabA: {fileID: 1389592825897040481, guid: 5a0ec3db70b944b13835d762a1302af7, type: 3}
-  objectList: []
-  PositionX: 50
-  PositionY: -150
-  PositionZ: -200
-  ROWS: 11
-  COLS: 11
-  HIGHT: 4
-  distance: 50
-  noiseMultiplier: 0.1
-  scaleMultiplier: 2
 --- !u!114 &2102322215
 MonoBehaviour:
   m_ObjectHideFlags: 0
